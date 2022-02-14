@@ -66,7 +66,7 @@
   + Name of journal
   + Mesh terms (full + simple)
 
-  Useful links:
+  Useful links: \
   https://www.nlm.nih.gov/bsd/licensee/elements_descriptions.html
   https://www.nlm.nih.gov/bsd/licensee/elements_alphabetical.html
   https://www.nlm.nih.gov/databases/dtd/index.html
@@ -191,9 +191,9 @@
       + (see the populated database in CSV format at pgsql_pubmed_data.csv)
   
   
-  ### pgsql_pubmed_data.csv
+  ### pgsql_pubmed_data_reduced.csv
   
-  The PostgreSQL database (in CSV format) after being filled with data.
+  (a sample of) The PostgreSQL database (in CSV format) after being filled with data.
   
   
   ### query_pgsql.py
