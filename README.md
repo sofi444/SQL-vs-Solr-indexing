@@ -67,8 +67,8 @@
   + Mesh terms (full + simple)
 
   Useful links: \
-  https://www.nlm.nih.gov/bsd/licensee/elements_descriptions.html
-  https://www.nlm.nih.gov/bsd/licensee/elements_alphabetical.html
+  https://www.nlm.nih.gov/bsd/licensee/elements_descriptions.html \
+  https://www.nlm.nih.gov/bsd/licensee/elements_alphabetical.html \
   https://www.nlm.nih.gov/databases/dtd/index.html
   
 
