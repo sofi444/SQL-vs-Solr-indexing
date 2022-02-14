@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE PubmedArticleSet SYSTEM "http://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+      <PMID Version="1">34757943</PMID>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>10</Day>
+      </DateRevised>
+      <Article PubModel="Print-Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">1361-6560</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Nov</Month>
+              <Day>10</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Physics in medicine and biology</Title>
+          <ISOAbbreviation>Phys Med Biol</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Convex optimization algorithms in medical image reconstruction - in the age of AI.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6560/ac3842</ELocationID>
+        <Abstract>
+          <AbstractText>The past decade has seen the flourish of model based image reconstruction (MBIR) algorithms, which are often applications or adaptations of convex optimization algorithms from the optimization community. We review some state-of-the-art algorithms that have enjoyed wide popularity in medical image reconstruction, emphasize known connections between different algorithms, and discuss practical issues such as computation and memory cost. More recently, deep learning (DL) has forayed into medical imaging, where the latest development tries to exploit the synergy between DL and MBIR to elevate the MBIR's performance. We present existing approaches and emerging trends in DL-enhanced MBIR methods, with particular attention to the underlying role of convexity and convex algorithms on network architecture. We also discuss how convexity can be employed to improve the generalizability and representation power of DL networks in general.</AbstractText>
+          <CopyrightInformation>© 2021 Institute of Physics and Engineering in Medicine.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Xu</LastName>
+            <ForeName>Jingyan</ForeName>
+            <Initials>J</Initials>
+            <Identifier Source="ORCID">0000-0003-3047-8198</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Radiology, Johns Hopkins University, Baltimore, UNITED STATES.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Noo</LastName>
+            <ForeName>Frédéric</ForeName>
+            <Initials>F</Initials>
+            <AffiliationInfo>
+              <Affiliation>Radiology and Imaging Sciences, University of Utah, Salt Lake City, Utah, UNITED STATES.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>Phys Med Biol</MedlineTA>
+        <NlmUniqueID>0401220</NlmUniqueID>
+        <ISSNLinking>0031-9155</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">artificial intelligence</Keyword>
+        <Keyword MajorTopicYN="N">convex optimization</Keyword>
+        <Keyword MajorTopicYN="N">deep learning (DL)</Keyword>
+        <Keyword MajorTopicYN="N">first order methods</Keyword>
+        <Keyword MajorTopicYN="N">inverse problems</Keyword>
+        <Keyword MajorTopicYN="N">machine learning (ML)</Keyword>
+        <Keyword MajorTopicYN="N">model based image reconstruction</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>58</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>aheadofprint</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757943</ArticleId>
+        <ArticleId IdType="doi">10.1088/1361-6560/ac3842</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+      <PMID Version="1">34757944</PMID>
+      <DateCompleted>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>29</Day>
+      </DateCompleted>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>29</Day>
+      </DateRevised>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">1361-6528</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>33</Volume>
+            <Issue>8</Issue>
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Nov</Month>
+              <Day>29</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Nanotechnology</Title>
+          <ISOAbbreviation>Nanotechnology</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>MXene-based hybrid system exhibits excellent synergistic antibiosis.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6528/ac385d</ELocationID>
+        <Abstract>
+          <AbstractText>MXenes are a group of inorganic two-dimensional (2D) nanomaterial, and have raised significant interests in biomedical areas. Ti<sub>3</sub>C<sub>2</sub>T<i><sub>x</sub></i>, as an important member of MXene family, is widely studied because of its biodegradability and low-cytotoxicity. However, their single antibacterial mechanism and poor stability in aqueous solution need to be improved, especially for the antimicrobial applications. In this work, a MXene-based hybrid antibacterial system (M-HAS) was developed and its synergistic antibacterial activity was investigated. In the M-HAS, 2D few-layer Ti<sub>3</sub>C<sub>2</sub>T<i><sub>x</sub></i>(FL-Ti<sub>3</sub>C<sub>2</sub>T<i><sub>x</sub></i>) was modified with hydrophilic polymers and thereby used as carriers for silver nanoparticles (Ag NPs). By assembling these two substrates, photodynamic performance of the prepared system is significantly improved with a large amount of reactive oxygen species produced under 660 nm laser. Antibacterial effects of the M-HAS are enhanced by over 4 times with irradiation. In another word, the developed hybrid system displays excellent photodynamic antibacterial synergistic properties. This work takes advantage of the photodynamic properties of each component in the M-HAS to achieve efficient antibacterial activity and proposes an innovative approach to develop the 2D FL-Ti<sub>3</sub>C<sub>2</sub>T<i><sub>x</sub></i>-based antibacterial platform.</AbstractText>
+          <CopyrightInformation>© 2021 IOP Publishing Ltd.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Lv</LastName>
+            <ForeName>Shupei</ForeName>
+            <Initials>S</Initials>
+            <AffiliationInfo>
+              <Affiliation>Henan Provincial People's Hospital, People's Hospital of Zhengzhou University, Zhengzhou 450003, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>School of Materials Science and Engineering, Zhengzhou University, Zhengzhou 450001, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Song</LastName>
+            <ForeName>Bo</ForeName>
+            <Initials>B</Initials>
+            <AffiliationInfo>
+              <Affiliation>School of Materials Science and Engineering, Zhengzhou University, Zhengzhou 450001, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Han</LastName>
+            <ForeName>Fengqi</ForeName>
+            <Initials>F</Initials>
+            <AffiliationInfo>
+              <Affiliation>Henan Provincial People's Hospital, People's Hospital of Zhengzhou University, Zhengzhou 450003, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>School of Materials Science and Engineering, Zhengzhou University, Zhengzhou 450001, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Li</LastName>
+            <ForeName>Zhanrong</ForeName>
+            <Initials>Z</Initials>
+            <AffiliationInfo>
+              <Affiliation>Henan Provincial People's Hospital, People's Hospital of Zhengzhou University, Zhengzhou 450003, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Fan</LastName>
+            <ForeName>Bingbing</ForeName>
+            <Initials>B</Initials>
+            <Identifier Source="ORCID">0000-0002-1168-1142</Identifier>
+            <AffiliationInfo>
+              <Affiliation>School of Materials Science and Engineering, Zhengzhou University, Zhengzhou 450001, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Zhang</LastName>
+            <ForeName>Rui</ForeName>
+            <Initials>R</Initials>
+            <Identifier Source="ORCID">0000-0003-1836-1245</Identifier>
+            <AffiliationInfo>
+              <Affiliation>School of Materials Science and Engineering, Zhengzhou University, Zhengzhou 450001, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>School of Material Science and Engineering, Luoyang Institute of Science and Technology, Luoyang 471023, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Zhang</LastName>
+            <ForeName>Junjie</ForeName>
+            <Initials>J</Initials>
+            <AffiliationInfo>
+              <Affiliation>Henan Provincial People's Hospital, People's Hospital of Zhengzhou University, Zhengzhou 450003, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Li</LastName>
+            <ForeName>Jingguo</ForeName>
+            <Initials>J</Initials>
+            <Identifier Source="ORCID">0000-0002-0471-4540</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Henan Provincial People's Hospital, People's Hospital of Zhengzhou University, Zhengzhou 450003, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>School of Materials Science and Engineering, Zhengzhou University, Zhengzhou 450001, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>29</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>Nanotechnology</MedlineTA>
+        <NlmUniqueID>101241272</NlmUniqueID>
+        <ISSNLinking>0957-4484</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">MXene</Keyword>
+        <Keyword MajorTopicYN="N">hybrid system</Keyword>
+        <Keyword MajorTopicYN="N">photodynamics</Keyword>
+        <Keyword MajorTopicYN="N">silver nanoparticles</Keyword>
+        <Keyword MajorTopicYN="N">synergistic antibiosis</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="received">
+          <Year>2021</Year>
+          <Month>08</Month>
+          <Day>06</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="accepted">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>09</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>1</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>58</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>epublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757944</ArticleId>
+        <ArticleId IdType="doi">10.1088/1361-6528/ac385d</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+      <PMID Version="1">34757945</PMID>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>26</Day>
+      </DateRevised>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">1361-6560</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>66</Volume>
+            <Issue>23</Issue>
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Nov</Month>
+              <Day>26</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Physics in medicine and biology</Title>
+          <ISOAbbreviation>Phys Med Biol</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Insights of an AI agent via analysis of prediction errors: a case study of fluence map prediction for radiation therapy planning.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6560/ac3841</ELocationID>
+        <Abstract>
+          <AbstractText><i>Purpose.</i>We have previously reported an artificial intelligence (AI) agent that automatically generates intensity-modulated radiation therapy (IMRT) plans via fluence map prediction, by-passing inverse planning. This AI agent achieved clinically comparable quality for prostate cases, but its performance on head-and-neck patients leaves room for improvement. This study aims to collect insights of the deep-learning-based (DL-based) fluence map prediction model by systematically analyzing its prediction errors.<i>Methods.</i>From the modeling perspective, the DL model's output is the fluence maps of IMRT plans. However, from the clinical planning perspective, the plan quality evaluation should be based on the clinical dosimetric criteria such as dose-volume histograms. To account for the complex and non-intuitive relationships between fluence map prediction errors and the corresponding dose distribution changes, we propose a novel error analysis approach that systematically examines plan dosimetric changes that are induced by varying amounts of fluence prediction errors. We investigated four decomposition modes of model prediction errors. The two spatial domain decompositions are based on fluence intensity and fluence gradient. The two frequency domain decompositions are based on Fourier-space banded frequency rings and Fourier-space truncated low-frequency disks. The decomposed error was analyzed for its impact on the resulting plans' dosimetric metrics. The analysis was conducted on 15 test cases spared from the 200 training and 16 validation cases used to train the model.<i>Results.</i>Most planning target volume metrics were significantly correlated with most error decompositions. The Fourier space disk radii had the largest Spearman's coefficients. The low-frequency region within a disk of ∼20% Fourier space contained most of errors that impact overall plan quality.<i>Conclusions.</i>This study demonstrates the feasibility of using fluence map prediction error analysis to understand the AI agent's performance. Such insights will help fine-tune the DL models in architecture design and loss function selection.</AbstractText>
+          <CopyrightInformation>© 2021 The Author(s). Published on behalf of Institute of Physics and Engineering in Medicine by IOP Publishing Ltd.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Li</LastName>
+            <ForeName>Xinyi</ForeName>
+            <Initials>X</Initials>
+            <Identifier Source="ORCID">0000-0001-9995-8101</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Duke University Medical Center, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Wu</LastName>
+            <ForeName>Q Jackie</ForeName>
+            <Initials>QJ</Initials>
+            <AffiliationInfo>
+              <Affiliation>Duke University Medical Center, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Wu</LastName>
+            <ForeName>Qiuwen</ForeName>
+            <Initials>Q</Initials>
+            <AffiliationInfo>
+              <Affiliation>Duke University Medical Center, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Wang</LastName>
+            <ForeName>Chunhao</ForeName>
+            <Initials>C</Initials>
+            <AffiliationInfo>
+              <Affiliation>Duke University Medical Center, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Sheng</LastName>
+            <ForeName>Yang</ForeName>
+            <Initials>Y</Initials>
+            <AffiliationInfo>
+              <Affiliation>Duke University Medical Center, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Wang</LastName>
+            <ForeName>Wentao</ForeName>
+            <Initials>W</Initials>
+            <Identifier Source="ORCID">0000-0003-4216-4938</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Duke University Medical Center, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Stephens</LastName>
+            <ForeName>Hunter</ForeName>
+            <Initials>H</Initials>
+            <Identifier Source="ORCID">0000-0002-5473-4419</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Duke University Medical Center, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Yin</LastName>
+            <ForeName>Fang-Fang</ForeName>
+            <Initials>FF</Initials>
+            <AffiliationInfo>
+              <Affiliation>Duke University Medical Center, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Ge</LastName>
+            <ForeName>Yaorong</ForeName>
+            <Initials>Y</Initials>
+            <AffiliationInfo>
+              <Affiliation>The University of North Carolina at Chapel Hill, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>26</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>Phys Med Biol</MedlineTA>
+        <NlmUniqueID>0401220</NlmUniqueID>
+        <ISSNLinking>0031-9155</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">artificial intelligence</Keyword>
+        <Keyword MajorTopicYN="N">deep learning</Keyword>
+        <Keyword MajorTopicYN="N">head-and-neck cancer</Keyword>
+        <Keyword MajorTopicYN="N">machine learning</Keyword>
+        <Keyword MajorTopicYN="N">radiotherapy treatment planning</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="received">
+          <Year>2021</Year>
+          <Month>07</Month>
+          <Day>28</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="accepted">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>58</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>epublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757945</ArticleId>
+        <ArticleId IdType="doi">10.1088/1361-6560/ac3841</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+      <PMID Version="1">34757946</PMID>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>24</Day>
+      </DateRevised>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">1361-648X</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>34</Volume>
+            <Issue>7</Issue>
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Nov</Month>
+              <Day>25</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Journal of physics. Condensed matter : an Institute of Physics journal</Title>
+          <ISOAbbreviation>J Phys Condens Matter</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Anisotropic thermal conductivity and corrugated patterns in single-layer black phosphorus nanoribbon subjected to shear loading: a molecular dynamics study.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-648X/ac3868</ELocationID>
+        <Abstract>
+          <AbstractText>Single-layer black phosphorus (SLBP) also known as phosphorene is a recently introduced two-dimensional material with unique structure and promising physical properties that has drawn considerable attention in the field of nanodevices. This structure demonstrates a high anisotropy in mechanical and thermal behavior along zigzag (ZZ) and armchair (AC) principal in-plane directions. Here in this study, it is shown that implementing shear strain on 10 nm × 50 nm SLBP nanoribbons (SLBPNRs) along ZZ and AC directions, the anisotropy leads to different corrugated patterns on the pristine structure. Applying non-equilibrium molecular dynamics under a parameterized Stillinger-Weber potential for modelling SLBP, thermal conductivity (TC) behavior of the sheared SLBPNRs with corrugated patterns are examined. The results show a higher amplitude and wavelength of the corregations on the ZZ-aligned SLBPNRs, which is around two times higher than that of AC-aligned counterparts. Although, it is also shown that unlike some other 2D materials, such as graphene, the wrinkling does not have such a significant effect on TC of SLBP. The phonon density of states results obtained in this work as well as phonon dispersion curves by first-principle calculations in other works concrete this finding. The results show small frequency shifts in both high- and low-frequency phonons, which are not strong enough to affect TC in SLBPNRs. This interesting thermal property of SLBP under shear strain suggests the great potential application of these corrugated structures in nanodevices without any loss of TC abilities.</AbstractText>
+          <CopyrightInformation>© 2021 IOP Publishing Ltd.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Mahnama</LastName>
+            <ForeName>Maryam</ForeName>
+            <Initials>M</Initials>
+            <Identifier Source="ORCID">0000-0003-0220-0308</Identifier>
+            <AffiliationInfo>
+              <Affiliation>School of Mechanical Engineering, College of Engineering, University of Tehran, PO Box: 11155-4563, Tehran, Iran.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Meshkinghalam</LastName>
+            <ForeName>Mostafa</ForeName>
+            <Initials>M</Initials>
+            <Identifier Source="ORCID">0000-0002-1781-1999</Identifier>
+            <AffiliationInfo>
+              <Affiliation>School of Mechanical Engineering, College of Engineering, University of Tehran, PO Box: 11155-4563, Tehran, Iran.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Ozmaian</LastName>
+            <ForeName>Masoumeh</ForeName>
+            <Initials>M</Initials>
+            <Identifier Source="ORCID">0000-0003-0751-789X</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>25</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>J Phys Condens Matter</MedlineTA>
+        <NlmUniqueID>101165248</NlmUniqueID>
+        <ISSNLinking>0953-8984</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">black phosphorus</Keyword>
+        <Keyword MajorTopicYN="N">corrugated patterns</Keyword>
+        <Keyword MajorTopicYN="N">molecular dynamics</Keyword>
+        <Keyword MajorTopicYN="N">shear strain</Keyword>
+        <Keyword MajorTopicYN="N">thermal conductivity</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="received">
+          <Year>2021</Year>
+          <Month>07</Month>
+          <Day>26</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="accepted">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>1</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>58</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>epublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757946</ArticleId>
+        <ArticleId IdType="doi">10.1088/1361-648X/ac3868</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+      <PMID Version="1">34757947</PMID>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>24</Day>
+      </DateRevised>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">1361-648X</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>34</Volume>
+            <Issue>7</Issue>
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Nov</Month>
+              <Day>25</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Journal of physics. Condensed matter : an Institute of Physics journal</Title>
+          <ISOAbbreviation>J Phys Condens Matter</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Magnetic properties and phase diagram of quasi-two-dimensional Na<sub>2</sub>Co<sub>2</sub>TeO<sub>6</sub>single crystal under high magnetic field.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-648X/ac3869</ELocationID>
+        <Abstract>
+          <AbstractText>We investigated the magnetic characteristics of Na<sub>2</sub>Co<sub>2</sub>TeO<sub>6</sub>at different temperatures and magnetic field. The experimental results indicated that the magnetic field can disturb the antiferromagnetic interaction and lead to the disorder. Magnetization curves measured with different angles<i>θ</i>(<i>θ</i>is between the magnetic field direction and<i>c</i>axis) express the magnetocrystalline anisotropy in this system. When the angle<i>θ</i>= 0 (magnetic field parallel to<i>c</i>axis), two continuous magnetic phase transitions at critical temperature<i>T</i><sub>N1</sub>and<i>T</i><sub>N3</sub>were observed. As<i>θ</i>changes,<i>T</i><sub>N1</sub>is almost independent on<i>θ</i>, indicating the magnetic ordering at<i>T</i><sub>N1</sub>was a spontaneous behavior with a robust AFM characteristic. On the other hand, as<i>θ</i>increases from 0 to 180,<i>T</i><sub>N3</sub>presents extreme value at<i>θ</i>= 90 (magnetic field perpendicular to<i>c</i>axis). It indicates that<i>T</i><sub>N3</sub>were sensitive to temperature and magnetic fields. At some angles closing to<i>ab</i>plane, an additional phase transition was observed at<i>T</i><sub>N2.</sub>This phase transition at<i>T</i><sub>N2</sub>may mainly result from the long range antiferromagnetic ordering within<i>ab</i>-plane. Furthermore, the magnetization measurement up to 50 T revealed the strong antiferromagnetic coupling in the system, and in which the magnetic coupling within the honeycomb layers is strong and the magnetic coupling interaction between honeycomb layers is weaker. Based on the experimental results, we have obtained the complete magnetic phase diagram.</AbstractText>
+          <CopyrightInformation>© 2021 IOP Publishing Ltd.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Xiao</LastName>
+            <ForeName>Guiling</ForeName>
+            <Initials>G</Initials>
+            <Identifier Source="ORCID">0000-0002-0534-2830</Identifier>
+            <AffiliationInfo>
+              <Affiliation>School of Electrical and Electronic Engineering, Wuhan Polytechnic University, Wuhan 430023, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Xia</LastName>
+            <ForeName>Zhengcai</ForeName>
+            <Initials>Z</Initials>
+            <Identifier Source="ORCID">0000-0002-6383-573X</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Wuhan National High Magnetic Field Center, Huazhong University of Science and Technology, Wuhan 430074, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Song</LastName>
+            <ForeName>Yujie</ForeName>
+            <Initials>Y</Initials>
+            <AffiliationInfo>
+              <Affiliation>Wuhan National High Magnetic Field Center, Huazhong University of Science and Technology, Wuhan 430074, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Xiao</LastName>
+            <ForeName>Lixia</ForeName>
+            <Initials>L</Initials>
+            <AffiliationInfo>
+              <Affiliation>Wenhua College, Department of Physical Sciences, Wuhan 430074, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>25</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>J Phys Condens Matter</MedlineTA>
+        <NlmUniqueID>101165248</NlmUniqueID>
+        <ISSNLinking>0953-8984</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">Na2Co2TeO6</Keyword>
+        <Keyword MajorTopicYN="N">high magnetic field</Keyword>
+        <Keyword MajorTopicYN="N">spin reorientation</Keyword>
+        <Keyword MajorTopicYN="N">zigzag chain</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="received">
+          <Year>2021</Year>
+          <Month>09</Month>
+          <Day>03</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="accepted">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>1</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>58</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>epublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757947</ArticleId>
+        <ArticleId IdType="doi">10.1088/1361-648X/ac3869</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+      <PMID Version="1">34757948</PMID>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>26</Day>
+      </DateRevised>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">1361-6528</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>33</Volume>
+            <Issue>7</Issue>
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Nov</Month>
+              <Day>26</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Nanotechnology</Title>
+          <ISOAbbreviation>Nanotechnology</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Recent progress on selective hydrogenation of phenol toward cyclohexanone or cyclohexanol.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6528/ac385f</ELocationID>
+        <Abstract>
+          <AbstractText>Phenol is considered as an important platform molecule for synthesizing value-added chemical intermediates and products. To date, various strategies for phenol transformation have been developed, and among them, selective hydrogenation of phenol toward cyclohexanone (K), cyclohexanol (A) or the mixture KA oil has been attracted great interest because they are both the key raw materials for the synthesis of nylon 6 and 66, as well as many other chemical products, including polyamides. However, until now it is still challengeable to realize the industrilized application of phenol hydrogenation toward KA oils. To better understand the selective hydrogenation of phenol and fabricate the enabled nanocatalysts, it is necessary to summarize the recent progress on selective hydrogenation of phenol with different catalysts. In this review, we first summarize the selective hydrogenation of phenol toward cyclohexanone or cyclohexanol by different nanocatalysts, and simultaneously discuss the relationship among the active components, type of supports and their performances. Then, the possible reaction mechanism of phenol hydrogenation with the typical metal nanocatalysts is summarized. Subsequently, the possible ways for scale-up hydrogenation of phenol are discussed. Finally, the potential challenges and future developments of metal nanocatalysts for the selective hydrogenation of phenol are proposed.</AbstractText>
+          <CopyrightInformation>© 2021 The Author(s). Published by IOP Publishing Ltd.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Xue</LastName>
+            <ForeName>Guangxin</ForeName>
+            <Initials>G</Initials>
+            <AffiliationInfo>
+              <Affiliation>CAS Key Laboratory of Nanosystem and Hierarchical Fabrication, CAS Center for Excellence in Nanoscience, National Center for Nanoscience and Technology, Beijing 100190, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Yin</LastName>
+            <ForeName>Linlin</ForeName>
+            <Initials>L</Initials>
+            <AffiliationInfo>
+              <Affiliation>CAS Key Laboratory of Nanosystem and Hierarchical Fabrication, CAS Center for Excellence in Nanoscience, National Center for Nanoscience and Technology, Beijing 100190, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>College of Chemistry, Zhengzhou University, Zhengzhou 450001, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Shao</LastName>
+            <ForeName>Shengxian</ForeName>
+            <Initials>S</Initials>
+            <AffiliationInfo>
+              <Affiliation>CAS Key Laboratory of Nanosystem and Hierarchical Fabrication, CAS Center for Excellence in Nanoscience, National Center for Nanoscience and Technology, Beijing 100190, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>School of Nanoscience and Technology, University of Chinese Academy of Sciences, Beijing 100049, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Li</LastName>
+            <ForeName>Guodong</ForeName>
+            <Initials>G</Initials>
+            <Identifier Source="ORCID">0000-0001-5099-4873</Identifier>
+            <AffiliationInfo>
+              <Affiliation>CAS Key Laboratory of Nanosystem and Hierarchical Fabrication, CAS Center for Excellence in Nanoscience, National Center for Nanoscience and Technology, Beijing 100190, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>College of Chemistry, Zhengzhou University, Zhengzhou 450001, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>School of Nanoscience and Technology, University of Chinese Academy of Sciences, Beijing 100049, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+          <PublicationType UI="D016454">Review</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>26</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>Nanotechnology</MedlineTA>
+        <NlmUniqueID>101241272</NlmUniqueID>
+        <ISSNLinking>0957-4484</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">cyclohexanol</Keyword>
+        <Keyword MajorTopicYN="N">cyclohexanone</Keyword>
+        <Keyword MajorTopicYN="N">metal nanocatalysts</Keyword>
+        <Keyword MajorTopicYN="N">selective hydrogenation of phenol</Keyword>
+        <Keyword MajorTopicYN="N">synergistic catalysis</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="received">
+          <Year>2021</Year>
+          <Month>08</Month>
+          <Day>08</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="accepted">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>1</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>58</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>epublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757948</ArticleId>
+        <ArticleId IdType="doi">10.1088/1361-6528/ac385f</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+      <PMID Version="1">34757949</PMID>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>30</Day>
+      </DateRevised>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">1361-648X</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>34</Volume>
+            <Issue>7</Issue>
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Nov</Month>
+              <Day>29</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Journal of physics. Condensed matter : an Institute of Physics journal</Title>
+          <ISOAbbreviation>J Phys Condens Matter</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Epitaxial growth of bilayer Bi(110) on two-dimensional ferromagnetic Fe<sub>3</sub>GeTe<sub>2</sub>.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-648X/ac386a</ELocationID>
+        <Abstract>
+          <AbstractText>Heterostructures of two-dimensional (2D) layered materials with selective compositions play an important role in creating novel functionalities. Effective interface coupling between 2D ferromagnet and electronic materials would enable the generation of exotic physical phenomena caused by intrinsic symmetry breaking and proximity effect at interfaces. Here, epitaxial growth of bilayer Bi(110) on 2D ferromagnetic Fe<sub>3</sub>GeTe<sub>2</sub>(FGT) with large magnetic anisotropy has been reported. Bilayer Bi(110) islands are found to extend along fixed lattice directions of FGT. The six preferred orientations could be divided into two groups of three-fold symmetry axes with the difference approximately to 26°. Moreover, d<i>I</i>/d<i>V</i>measurements confirm the existence of interface coupling between bilayer Bi(110) and FGT. A variation of the energy gap at the edges of bilayer Bi(110) is also observed which is modulated by the interface coupling strengths associated with its buckled atomic structure. This system provides a good platform for further study of the exotic electronic properties of epitaxial Bi(110) on 2D ferromagnetic substrate and promotes potential applications in the field of spin devices.</AbstractText>
+          <CopyrightInformation>© 2021 IOP Publishing Ltd.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Xi</LastName>
+            <ForeName>Yilian</ForeName>
+            <Initials>Y</Initials>
+            <AffiliationInfo>
+              <Affiliation>School of Physics, Beihang University, Beijing 100191, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>Institute for Superconducting and Electronic Materials (ISEM) and BUAA-UOW Joint Research Centre, Australian Institute for Innovative Materials (AIIM), University of Wollongong, Wollongong, NSW 2500, Australia.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Zhao</LastName>
+            <ForeName>Mengting</ForeName>
+            <Initials>M</Initials>
+            <AffiliationInfo>
+              <Affiliation>School of Physics, Beihang University, Beijing 100191, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>Institute for Superconducting and Electronic Materials (ISEM) and BUAA-UOW Joint Research Centre, Australian Institute for Innovative Materials (AIIM), University of Wollongong, Wollongong, NSW 2500, Australia.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Feng</LastName>
+            <ForeName>Haifeng</ForeName>
+            <Initials>H</Initials>
+            <AffiliationInfo>
+              <Affiliation>School of Physics, Beihang University, Beijing 100191, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Sun</LastName>
+            <ForeName>Ying</ForeName>
+            <Initials>Y</Initials>
+            <AffiliationInfo>
+              <Affiliation>School of Physics, Beihang University, Beijing 100191, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Man</LastName>
+            <ForeName>Xingkun</ForeName>
+            <Initials>X</Initials>
+            <AffiliationInfo>
+              <Affiliation>School of Physics, Beihang University, Beijing 100191, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Xu</LastName>
+            <ForeName>Xun</ForeName>
+            <Initials>X</Initials>
+            <AffiliationInfo>
+              <Affiliation>Institute for Superconducting and Electronic Materials (ISEM) and BUAA-UOW Joint Research Centre, Australian Institute for Innovative Materials (AIIM), University of Wollongong, Wollongong, NSW 2500, Australia.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Hao</LastName>
+            <ForeName>Weichang</ForeName>
+            <Initials>W</Initials>
+            <AffiliationInfo>
+              <Affiliation>School of Physics, Beihang University, Beijing 100191, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Dou</LastName>
+            <ForeName>Shixue</ForeName>
+            <Initials>S</Initials>
+            <AffiliationInfo>
+              <Affiliation>Institute for Superconducting and Electronic Materials (ISEM) and BUAA-UOW Joint Research Centre, Australian Institute for Innovative Materials (AIIM), University of Wollongong, Wollongong, NSW 2500, Australia.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Du</LastName>
+            <ForeName>Yi</ForeName>
+            <Initials>Y</Initials>
+            <AffiliationInfo>
+              <Affiliation>School of Physics, Beihang University, Beijing 100191, People's Republic of China.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>29</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>J Phys Condens Matter</MedlineTA>
+        <NlmUniqueID>101165248</NlmUniqueID>
+        <ISSNLinking>0953-8984</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">Bi(110) film</Keyword>
+        <Keyword MajorTopicYN="N">FGT ferromagnet</Keyword>
+        <Keyword MajorTopicYN="N">STM</Keyword>
+        <Keyword MajorTopicYN="N">electronic structure</Keyword>
+        <Keyword MajorTopicYN="N">heterostructures</Keyword>
+        <Keyword MajorTopicYN="N">interface coupling</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="received">
+          <Year>2021</Year>
+          <Month>10</Month>
+          <Day>15</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="accepted">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>1</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>58</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>epublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757949</ArticleId>
+        <ArticleId IdType="doi">10.1088/1361-648X/ac386a</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+      <PMID Version="1">34757950</PMID>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>18</Day>
+      </DateRevised>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">2057-1976</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>8</Volume>
+            <Issue>1</Issue>
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Nov</Month>
+              <Day>18</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Biomedical physics &amp; engineering express</Title>
+          <ISOAbbreviation>Biomed Phys Eng Express</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>3D chest tomosynthesis using a stationary flat panel source array and a stationary detector: a Monte Carlo proof of concept.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/2057-1976/ac3880</ELocationID>
+        <Abstract>
+          <AbstractText>3D imaging modalities such as computed tomography and digital tomosynthesis typically scan the patient from different angles with a lengthy mechanical movement of a single x-ray tube. Therefore, millions of 3D scans per year require expensive mechanisms to support a heavy x-ray source and have to compensate for machine vibrations and patient movements. However, recent developments in cold-cathode field emission technology allow the creation of compact, stationary arrays of emitters. Adaptix Ltd has developed a novel, low-cost, square array of such emitters and demonstrated 3D digital tomosynthesis of human extremities and small animals. The use of cold-cathode field emitters also makes the system compact and lightweight. This paper presents Monte Carlo simulations of a concept upgrade of the Adaptix system from the current 60 kVp to 90 kVp and 120 kVp which are better suited for chest imaging. Between 90 kVp and 120 kVp, 3D image quality appears insensitive to voltage and at 90 kVp the photon yield is reduced by 40%-50% while effective dose declines by 14%. A square array of emitters can adequately illuminate a subject for tomosynthesis from a shorter source-to-image distance, thereby reducing the required input power, and offsetting the 28%-50% more input power that is required for operation at 90 kVp. This modelling suggests that lightweight, stationary cold-cathode x-ray source arrays could be used for chest tomosynthesis at a lower voltage, with less dose and without sacrificing image quality. This will reduce weight, size and cost, enabling 3D imaging to be brought to the bedside.</AbstractText>
+          <CopyrightInformation>Creative Commons Attribution license.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Primidis</LastName>
+            <ForeName>Thomas G</ForeName>
+            <Initials>TG</Initials>
+            <Identifier Source="ORCID">0000-0002-9509-1229</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Department of Physics, University of Liverpool, Liverpool, United Kingdom.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>The Cockcroft Institute, Sci-Tech Daresbury, Warrington, United Kingdom.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Wells</LastName>
+            <ForeName>Stephen G</ForeName>
+            <Initials>SG</Initials>
+            <AffiliationInfo>
+              <Affiliation>Adaptix Ltd, Oxford University Begbroke Science Park, Oxford, United Kingdom.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Soloviev</LastName>
+            <ForeName>Vadim Y</ForeName>
+            <Initials>VY</Initials>
+            <AffiliationInfo>
+              <Affiliation>Adaptix Ltd, Oxford University Begbroke Science Park, Oxford, United Kingdom.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Welsch</LastName>
+            <ForeName>Carsten P</ForeName>
+            <Initials>CP</Initials>
+            <AffiliationInfo>
+              <Affiliation>Department of Physics, University of Liverpool, Liverpool, United Kingdom.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>The Cockcroft Institute, Sci-Tech Daresbury, Warrington, United Kingdom.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>18</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>Biomed Phys Eng Express</MedlineTA>
+        <NlmUniqueID>101675002</NlmUniqueID>
+        <ISSNLinking>2057-1976</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">FLUKA</Keyword>
+        <Keyword MajorTopicYN="N">ICRP 145</Keyword>
+        <Keyword MajorTopicYN="N">ICRP reference phantom</Keyword>
+        <Keyword MajorTopicYN="N">dosimetry</Keyword>
+        <Keyword MajorTopicYN="N">geant4</Keyword>
+        <Keyword MajorTopicYN="N">realistic phantom</Keyword>
+        <Keyword MajorTopicYN="N">x-ray imaging</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="received">
+          <Year>2021</Year>
+          <Month>08</Month>
+          <Day>02</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="accepted">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>58</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>epublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757950</ArticleId>
+        <ArticleId IdType="doi">10.1088/2057-1976/ac3880</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+      <PMID Version="1">34757951</PMID>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>12</Month>
+        <Day>07</Day>
+      </DateRevised>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">1361-6560</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>66</Volume>
+            <Issue>24</Issue>
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Dec</Month>
+              <Day>07</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Physics in medicine and biology</Title>
+          <ISOAbbreviation>Phys Med Biol</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Design and modeling of a Laue lens for radiation therapy with hard x-ray photons.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6560/ac3840</ELocationID>
+        <Abstract>
+          <AbstractText>We have designed and modeled a novel optical system composed of a Laue lens coupled to an x-ray tube that produces a focused beam in an energy range near 100 keV (<i>λ</i>= 12.4 picometer). One application of this system is radiation therapy where it could enable treatment units that are considerably simpler and lower in cost than present technologies relying on linear accelerators. The Laue lens is made of Silicon Laue components which exploit the silicon pore optics technology. The lens concentrates photons to a small region thus allowing high dose rates at the focal area with very much lower dose rates at the skin and superficial regions. Monte Carlo simulations with Geant4 indicate a dose deposition rate of 0.2 Gy min<sup>-1</sup>in a cylindrical volume of 0.7 mm diameter and 10 mm length, and a dose ratio of 72 at the surface (skin) compared to the focus placed 10 cm within a water phantom. Work is ongoing to newer generation crystal technologies to increase dose rate.</AbstractText>
+          <CopyrightInformation>Creative Commons Attribution license.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Girou</LastName>
+            <ForeName>David</ForeName>
+            <Initials>D</Initials>
+            <Identifier Source="ORCID">0000-0003-1062-9390</Identifier>
+            <AffiliationInfo>
+              <Affiliation>cosine measurement systems, Oosteinde 36, 2361 HE Warmond, The Netherlands.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>Huygens-Kamerlingh Onnes Laboratory, Leiden University, Postbus 9504, 2300 RA Leiden, The Netherlands.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Ford</LastName>
+            <ForeName>Eric</ForeName>
+            <Initials>E</Initials>
+            <AffiliationInfo>
+              <Affiliation>Department of Radiation Oncology, University of Washington, Seattle, WA 98195, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Wade</LastName>
+            <ForeName>Colin</ForeName>
+            <Initials>C</Initials>
+            <AffiliationInfo>
+              <Affiliation>cosine measurement systems, Oosteinde 36, 2361 HE Warmond, The Netherlands.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>School of Physics and Centre for Space Research, University College Dublin, Belfield, Dublin 4, Ireland.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>van Aarle</LastName>
+            <ForeName>Casper</ForeName>
+            <Initials>C</Initials>
+            <AffiliationInfo>
+              <Affiliation>cosine measurement systems, Oosteinde 36, 2361 HE Warmond, The Netherlands.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>Delft University of Technology, Faculty of Applied Sciences, Department of Radiation Science and Technology, Mekelweg 15, 2629 JB Delft, The Netherlands.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Uliyanov</LastName>
+            <ForeName>Alexei</ForeName>
+            <Initials>A</Initials>
+            <AffiliationInfo>
+              <Affiliation>School of Physics and Centre for Space Research, University College Dublin, Belfield, Dublin 4, Ireland.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Hanlon</LastName>
+            <ForeName>Lorraine</ForeName>
+            <Initials>L</Initials>
+            <AffiliationInfo>
+              <Affiliation>School of Physics and Centre for Space Research, University College Dublin, Belfield, Dublin 4, Ireland.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Tomsick</LastName>
+            <ForeName>John A</ForeName>
+            <Initials>JA</Initials>
+            <AffiliationInfo>
+              <Affiliation>Space Sciences Laboratory, University of California, Berkeley, 7 Gauss Way, Berkeley, CA 94720, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Zoglauer</LastName>
+            <ForeName>Andreas</ForeName>
+            <Initials>A</Initials>
+            <AffiliationInfo>
+              <Affiliation>Space Sciences Laboratory, University of California, Berkeley, 7 Gauss Way, Berkeley, CA 94720, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Collon</LastName>
+            <ForeName>Maximilien J</ForeName>
+            <Initials>MJ</Initials>
+            <AffiliationInfo>
+              <Affiliation>cosine measurement systems, Oosteinde 36, 2361 HE Warmond, The Netherlands.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Beijersbergen</LastName>
+            <ForeName>Marco W</ForeName>
+            <Initials>MW</Initials>
+            <AffiliationInfo>
+              <Affiliation>cosine measurement systems, Oosteinde 36, 2361 HE Warmond, The Netherlands.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>Huygens-Kamerlingh Onnes Laboratory, Leiden University, Postbus 9504, 2300 RA Leiden, The Netherlands.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Barrière</LastName>
+            <ForeName>Nicolas M</ForeName>
+            <Initials>NM</Initials>
+            <AffiliationInfo>
+              <Affiliation>cosine measurement systems, Oosteinde 36, 2361 HE Warmond, The Netherlands.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>12</Month>
+          <Day>07</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>Phys Med Biol</MedlineTA>
+        <NlmUniqueID>0401220</NlmUniqueID>
+        <ISSNLinking>0031-9155</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">focused beam</Keyword>
+        <Keyword MajorTopicYN="N">focusing optics</Keyword>
+        <Keyword MajorTopicYN="N">hard x-rays</Keyword>
+        <Keyword MajorTopicYN="N">radiotherapy</Keyword>
+        <Keyword MajorTopicYN="N">silicon Laure components</Keyword>
+        <Keyword MajorTopicYN="N">silicon pore optics</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="received">
+          <Year>2021</Year>
+          <Month>06</Month>
+          <Day>23</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="accepted">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>58</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>epublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757951</ArticleId>
+        <ArticleId IdType="doi">10.1088/1361-6560/ac3840</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="PubMed-not-MEDLINE" Owner="NLM">
+      <PMID Version="1">34757952</PMID>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>30</Day>
+      </DateRevised>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">1361-6528</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>33</Volume>
+            <Issue>8</Issue>
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Nov</Month>
+              <Day>30</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Nanotechnology</Title>
+          <ISOAbbreviation>Nanotechnology</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Nanopatterning of oxide 2-dimensional electron systems using low-temperature ion milling.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/1361-6528/ac385e</ELocationID>
+        <Abstract>
+          <AbstractText>We present a 'top-down' patterning technique based on ion milling performed at low-temperature, for the realization of oxide two-dimensional electron system devices with dimensions down to 160 nm. Using electrical transport and scanning Superconducting QUantum Interference Device measurements we demonstrate that the low-temperature ion milling process does not damage the 2DES properties nor creates oxygen vacancies-related conducting paths in the STO substrate. As opposed to other procedures used to realize oxide 2DES devices, the one we propose gives lateral access to the 2DES along the in-plane directions, finally opening the way to coupling with other materials, including superconductors.</AbstractText>
+          <CopyrightInformation>Creative Commons Attribution license.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>D'Antuono</LastName>
+            <ForeName>M</ForeName>
+            <Initials>M</Initials>
+            <Identifier Source="ORCID">0000-0001-7520-1243</Identifier>
+            <AffiliationInfo>
+              <Affiliation>University of Naples Federico II, Italy.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>CNR-SPIN, Naples, Italy.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Kalaboukhov</LastName>
+            <ForeName>A</ForeName>
+            <Initials>A</Initials>
+            <Identifier Source="ORCID">0000-0003-2939-6187</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Department of Microtechnology and Nanoscience MC2, Chalmers University of Technology, Gothenburg, Sweden.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Caruso</LastName>
+            <ForeName>R</ForeName>
+            <Initials>R</Initials>
+            <Identifier Source="ORCID">0000-0002-9934-836X</Identifier>
+            <AffiliationInfo>
+              <Affiliation>University of Naples Federico II, Italy.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>CNR-SPIN, Naples, Italy.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>Brookhaven National Laboratory, Condensed Matter Physics and Materials Science Department, Bldg. 480, PO Box 5000 Upton, NY 11973-5000, United States of America.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Wissberg</LastName>
+            <ForeName>S</ForeName>
+            <Initials>S</Initials>
+            <AffiliationInfo>
+              <Affiliation>Department of Physics and Institute of Nanotechnology and Advanced Materials, Bar-Ilan University Ramat-Gan, Israel.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Weitz Sobelman</LastName>
+            <ForeName>S</ForeName>
+            <Initials>S</Initials>
+            <AffiliationInfo>
+              <Affiliation>Department of Physics and Institute of Nanotechnology and Advanced Materials, Bar-Ilan University Ramat-Gan, Israel.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Kalisky</LastName>
+            <ForeName>B</ForeName>
+            <Initials>B</Initials>
+            <Identifier Source="ORCID">0000-0002-1270-2670</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Department of Physics and Institute of Nanotechnology and Advanced Materials, Bar-Ilan University Ramat-Gan, Israel.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Ausanio</LastName>
+            <ForeName>G</ForeName>
+            <Initials>G</Initials>
+            <Identifier Source="ORCID">0000-0003-3126-8504</Identifier>
+            <AffiliationInfo>
+              <Affiliation>University of Naples Federico II, Italy.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>CNR-SPIN, Naples, Italy.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Salluzzo</LastName>
+            <ForeName>M</ForeName>
+            <Initials>M</Initials>
+            <Identifier Source="ORCID">0000-0001-8372-6963</Identifier>
+            <AffiliationInfo>
+              <Affiliation>CNR-SPIN, Naples, Italy.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Stornaiuolo</LastName>
+            <ForeName>D</ForeName>
+            <Initials>D</Initials>
+            <Identifier Source="ORCID">0000-0003-2654-9504</Identifier>
+            <AffiliationInfo>
+              <Affiliation>University of Naples Federico II, Italy.</Affiliation>
+            </AffiliationInfo>
+            <AffiliationInfo>
+              <Affiliation>CNR-SPIN, Naples, Italy.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>30</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>Nanotechnology</MedlineTA>
+        <NlmUniqueID>101241272</NlmUniqueID>
+        <ISSNLinking>0957-4484</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">nanodevices</Keyword>
+        <Keyword MajorTopicYN="N">oxide 2DES</Keyword>
+        <Keyword MajorTopicYN="N">oxide field effect devices</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="received">
+          <Year>2021</Year>
+          <Month>05</Month>
+          <Day>28</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="accepted">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>09</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>1</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>59</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>epublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757952</ArticleId>
+        <ArticleId IdType="doi">10.1088/1361-6528/ac385e</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+      <PMID Version="1">34757953</PMID>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>10</Day>
+      </DateRevised>
+      <Article PubModel="Print-Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">2057-1976</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Nov</Month>
+              <Day>10</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Biomedical physics &amp; engineering express</Title>
+          <ISOAbbreviation>Biomed Phys Eng Express</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Learning to teleoperate an upper-limb assistive humanoid robot for bimanual daily-living tasks.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/2057-1976/ac3881</ELocationID>
+        <Abstract>
+          <AbstractText><i>Objective.</i>Bimanual humanoid platforms for home assistance are nowadays available, both as academic prototypes and commercially. Although they are usually thought of as daily helpers for non-disabled users, their ability to move around, together with their dexterity, makes them ideal assistive devices for upper-limb disabled persons, too. Indeed, teleoperating a bimanual robotic platform via muscle activation could revolutionize the way stroke survivors, amputees and patients with spinal injuries solve their daily home chores. Moreover, with respect to direct prosthetic control, teleoperation has the advantage of freeing the user from the burden of the prosthesis itself, overpassing several limitations regarding size, weight, or integration, and thus enables a much higher level of functionality.<i>Approach.</i>In this study, nine participants, two of whom suffer from severe upper-limb disabilities, teleoperated a humanoid assistive platform, performing complex bimanual tasks requiring high precision and bilateral arm/hand coordination, simulating home/office chores. A wearable body posture tracker was used for position control of the robotic torso and arms, while interactive machine learning applied to electromyography of the forearms helped the robot to build an increasingly accurate model of the participant's intent over time.<i>Main results.</i>All participants, irrespective of their disability, were uniformly able to perform the demanded tasks. Completion times, subjective evaluation scores, as well as energy- and time- efficiency show improvement over time on short and long term.<i>Significance.</i>This is the first time a hybrid setup, involving myoeletric and inertial measurements, is used by disabled people to teleoperate a bimanual humanoid robot. The proposed setup, taking advantage of interactive machine learning, is simple, non-invasive, and offers a new assistive solution for disabled people in their home environment. Additionnally, it has the potential of being used in several other applications in which fine humanoid robot control is required.</AbstractText>
+          <CopyrightInformation>© 2021 IOP Publishing Ltd.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Connan</LastName>
+            <ForeName>Mathilde</ForeName>
+            <Initials>M</Initials>
+            <Identifier Source="ORCID">0000-0001-6735-4194</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Deutsches Zentrum fur Luft- und Raumfahrt Institut fur Robotik und Mechatronik, Muenchener Strasse 20, Oberpfaffenhofen-Wessling, 82234, GERMANY.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Sierotowicz</LastName>
+            <ForeName>Marek</ForeName>
+            <Initials>M</Initials>
+            <AffiliationInfo>
+              <Affiliation>Deutsches Zentrum fur Luft- und Raumfahrt Institut fur Robotik und Mechatronik, Muenchener Strasse 20, Oberpfaffenhofen-Wessling, 82234, GERMANY.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Henze</LastName>
+            <ForeName>Bernd</ForeName>
+            <Initials>B</Initials>
+            <AffiliationInfo>
+              <Affiliation>Deutsches Zentrum fur Luft- und Raumfahrt Institut fur Robotik und Mechatronik, Muenchener Strasse 20, Oberpfaffenhofen-Wessling, 82234, GERMANY.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Porges</LastName>
+            <ForeName>Oliver</ForeName>
+            <Initials>O</Initials>
+            <AffiliationInfo>
+              <Affiliation>Deutsches Zentrum fur Luft- und Raumfahrt Institut fur Robotik und Mechatronik, Muenchener Strasse 20, Oberpfaffenhofen-Wessling, 82234, GERMANY.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Albu-Schaeffer</LastName>
+            <ForeName>Alin</ForeName>
+            <Initials>A</Initials>
+            <AffiliationInfo>
+              <Affiliation>Deutsches Zentrum fur Luft- und Raumfahrt Institut fur Robotik und Mechatronik, Muenchener Strasse 20, Oberpfaffenhofen-Wessling, 82234, GERMANY.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Roa</LastName>
+            <ForeName>Maximo</ForeName>
+            <Initials>M</Initials>
+            <AffiliationInfo>
+              <Affiliation>Deutsches Zentrum fur Luft- und Raumfahrt Institut fur Robotik und Mechatronik, Muenchener Strasse 20, Oberpfaffenhofen-Wessling, 82234, GERMANY.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Castellini</LastName>
+            <ForeName>Claudio</ForeName>
+            <Initials>C</Initials>
+            <Identifier Source="ORCID">0000-0002-7346-2180</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Deutsches Zentrum fur Luft- und Raumfahrt DLR Institut fur Robotik und Mechatronik, Muenchener Strasse 20, Oberpfaffenhofen-Wessling, Bayern, 82234, GERMANY.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>Biomed Phys Eng Express</MedlineTA>
+        <NlmUniqueID>101675002</NlmUniqueID>
+        <ISSNLinking>2057-1976</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">assistive robotics</Keyword>
+        <Keyword MajorTopicYN="N">bimanual tasks</Keyword>
+        <Keyword MajorTopicYN="N">daily-living activities</Keyword>
+        <Keyword MajorTopicYN="N">human-machine interaction</Keyword>
+        <Keyword MajorTopicYN="N">humanoid robotics</Keyword>
+        <Keyword MajorTopicYN="N">myocontrol</Keyword>
+        <Keyword MajorTopicYN="N">teleoperation</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>59</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>aheadofprint</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757953</ArticleId>
+        <ArticleId IdType="doi">10.1088/2057-1976/ac3881</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+  <PubmedArticle>
+    <MedlineCitation Status="In-Data-Review" Owner="NLM">
+      <PMID Version="1">34757954</PMID>
+      <DateRevised>
+        <Year>2021</Year>
+        <Month>11</Month>
+        <Day>30</Day>
+      </DateRevised>
+      <Article PubModel="Electronic">
+        <Journal>
+          <ISSN IssnType="Electronic">1741-2552</ISSN>
+          <JournalIssue CitedMedium="Internet">
+            <Volume>18</Volume>
+            <Issue>6</Issue>
+            <PubDate>
+              <Year>2021</Year>
+              <Month>Dec</Month>
+              <Day>01</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Journal of neural engineering</Title>
+          <ISOAbbreviation>J Neural Eng</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Spatio-temporal warping for myoelectric control: an offline, feasibility study.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1088/1741-2552/ac387f</ELocationID>
+        <Abstract>
+          <AbstractText><i>Objective.</i>The efficacy of an adopted feature extraction method directly affects the classification of the electromyographic (EMG) signals in myoelectric control applications. Most methods attempt to extract the dynamics of the multi-channel EMG signals in the time domain and on a channel-by-channel, or at best pairs of channels, basis. However, considering multi-channel information to build a similarity matrix has not been taken into account.<i>Approach.</i>Combining methods of long and short-term memory (LSTM) and dynamic temporal warping, we developed a new feature, called spatio-temporal warping (STW), for myoelectric signals. This method captures the spatio-temporal relationships of multi-channels EMG signals.<i>Main results</i>. Across four online databases, we show that in terms of average classification error and standard deviation values, the STW feature outperforms traditional features by 5%-17%. In comparison to the more recent deep learning models, e.g. convolutional neural networks (CNNs), STW outperformed by 5%-18%. Also, STW showed enhanced performance when compared to the CNN + LSTM model by 2%-14%. All differences were statistically significant with a large effect size.<i>Significance.</i>This feasibility study provides evidence supporting the hypothesis that the STW feature of the EMG signals can enhance the classification accuracy in an explainable way when compared to recent deep learning methods. Future work includes real-time implementation of the method and testing for prosthesis control.</AbstractText>
+          <CopyrightInformation>Creative Commons Attribution license.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Jabbari</LastName>
+            <ForeName>Milad</ForeName>
+            <Initials>M</Initials>
+            <Identifier Source="ORCID">0000-0001-7127-9115</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Edinburgh Neuroprosthetics Laboratory, School of Informatics, The University of Edinburgh, Edinburgh EH8 9AB, United Kingdom.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Khushaba</LastName>
+            <ForeName>Rami</ForeName>
+            <Initials>R</Initials>
+            <Identifier Source="ORCID">0000-0001-8528-8979</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Australian Centre for Field Robotics, the University of Sydney, 8 Little Queen Street, Chippendale, NSW 2008, Australia.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Nazarpour</LastName>
+            <ForeName>Kianoush</ForeName>
+            <Initials>K</Initials>
+            <Identifier Source="ORCID">0000-0003-4217-0254</Identifier>
+            <AffiliationInfo>
+              <Affiliation>Edinburgh Neuroprosthetics Laboratory, School of Informatics, The University of Edinburgh, Edinburgh EH8 9AB, United Kingdom.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2021</Year>
+          <Month>12</Month>
+          <Day>01</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>J Neural Eng</MedlineTA>
+        <NlmUniqueID>101217933</NlmUniqueID>
+        <ISSNLinking>1741-2552</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <KeywordList Owner="NOTNLM">
+        <Keyword MajorTopicYN="N">deep learning</Keyword>
+        <Keyword MajorTopicYN="N">electromyographic signals (EMG)</Keyword>
+        <Keyword MajorTopicYN="N">feature extraction</Keyword>
+        <Keyword MajorTopicYN="N">myoelectric control</Keyword>
+        <Keyword MajorTopicYN="N">spatio-temporal information</Keyword>
+      </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="received">
+          <Year>2021</Year>
+          <Month>05</Month>
+          <Day>19</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="accepted">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>11</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2021</Year>
+          <Month>11</Month>
+          <Day>10</Day>
+          <Hour>17</Hour>
+          <Minute>59</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>epublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">34757954</ArticleId>
+        <ArticleId IdType="doi">10.1088/1741-2552/ac387f</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+</PubmedArticleSet>
