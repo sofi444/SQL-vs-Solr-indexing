@@ -1,0 +1,640 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww22800\viewh15020\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 sofy@Sofias-MBP-3 text_tech % python3 tt_all_solr_queries.py \
+http://localhost:8983/solr/pubmed_index/select?q=(coronavirus%20OR%20covid)%20AND%20vaccine%20AND%20reaction&fq=&fq=&q.op=OR&rows=3&start=0&sort=score%20desc&fl=ArticleTitle%20Abstract%20JournalTitle%20PubDate.Year%20score&defType=edismax&qf=Abstract&df=Abstract&wt=json&indent=true&debug=query\
+\{   'debug': \{   'QParser': 'ExtendedDismaxQParser',\
+                 'altquerystring': None,\
+                 'boost_queries': None,\
+                 'boostfuncs': None,\
+                 'parsed_boost_queries': [],\
+                 'parsedquery': '+(+(DisjunctionMaxQuery((Abstract:coronavirus)) DisjunctionMaxQuery((Abstract:covid))) '\
+                                '+DisjunctionMaxQuery((Abstract:vaccine)) +DisjunctionMaxQuery((Abstract:reaction)))',\
+                 'parsedquery_toString': '+(+((Abstract:coronavirus) (Abstract:covid)) +(Abstract:vaccine) +(Abstract:reaction))',\
+                 'querystring': '(coronavirus OR covid) AND vaccine AND reaction',\
+                 'rawquerystring': '(coronavirus OR covid) AND vaccine AND reaction'\},\
+    'response': \{   'docs': [   \{   'Abstract': 'Two mRNA coronavirus disease 2019 (COVID-19) vaccines, Moderna and '\
+                                                'Pfizer-BioNTech, require 2 doses for maximum efficacy. This case series reports '\
+                                                'the safety and immunogenicity of a graded administration of the second dose of '\
+                                                'the Moderna and Pfizer-BioNTech COVID-19 vaccines in patients with immediate '\
+                                                'hypersensitivity reactions to the first dose.',\
+                                    'ArticleTitle': 'Graded Administration of Second Dose of Moderna and Pfizer-BioNTech '\
+                                                    'COVID-19 mRNA Vaccines in Patients With Hypersensitivity to First Dose.',\
+                                    'JournalTitle': ['Open forum infectious diseases'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 10.229125\},\
+                                \{   'Abstract': 'The pandemic caused by the novel coronavirus disease 2019 (COVID-19) has had an '\
+                                                'unprecedented impact on the overall health and the global economy. Vaccination '\
+                                                'is currently the most dependable strategy to end the pandemic, despite the '\
+                                                'slower-than-hoped-for rollout, particularly for low-to-middle-income countries, '\
+                                                'and the uncertain duration of protection afforded by vaccination. The spike '\
+                                                'protein of the virus (immunodominant antigen of the virus) is the main target '\
+                                                'of the approved and candidate SARS-CoV-2 vaccines. This protein binds to the '\
+                                                'ACE2 receptor of the host cell, initiating the entry of the virus into the cell '\
+                                                'and the chain of subsequent events ending to Acute Respiratory Distress '\
+                                                'Syndrome. The safety profile of these vaccines needs is closely assessed. This '\
+                                                'comprehensive review includes searching the PubMed, EMBASE, and Web of Science '\
+                                                'databases using the keywords "coronavirus", "COVID-19", "vaccine", "cutaneous '\
+                                                'reactions", "allergic reactions", and "SARS-CoV-2". Manual searching of '\
+                                                'reference lists of included articles augmented the research. The research was '\
+                                                'updated in June 2021. In this narrative review, we tried to investigate and '\
+                                                'discuss the cutaneous and allergic reactions related to SARS-CoV-2 vaccines '\
+                                                'currently available in the literature. As a result, although COVID-19 vaccines '\
+                                                'can be reported to develop allergic and anaphylactic reactions, especially '\
+                                                'after m-RNA vaccines, they remain at a low rate, and it is observed that these '\
+                                                'reactions may develop more frequently, especially in patients with previous '\
+                                                'allergies and mast cell disorders. Fortunately, these reactions are generally '\
+                                                'transient, benign, self-limited. Although there is still no definitive '\
+                                                'evidence, as dermatologists, we must be aware of the possibility of cutaneous '\
+                                                'reactions, newly diagnosed dermatoses, or exacerbation of existing dermatoses '\
+                                                'that may develop after the COVID-19 vaccinations.',\
+                                    'ArticleTitle': 'Cutaneous and Allergic reactions due to COVID-19 vaccinations: A review.',\
+                                    'JournalTitle': ['Journal of cosmetic dermatology'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 10.212102\},\
+                                \{   'Abstract': 'The mechanism of coronavirus disease 2019 (COVID-19) vaccine hypersensitivity '\
+                                                'reactions is unknown. COVID-19 vaccine excipient skin testing has been used in '\
+                                                'evaluation of these reactions, but its utility in predicting subsequent '\
+                                                'COVID-19 vaccine tolerance is also unknown. To evaluate the utility of COVID-19 '\
+                                                'vaccine and vaccine excipient skin testing in both patients with an allergic '\
+                                                'reaction to their first messenger RNA COVID-19 vaccine dose and patients with a '\
+                                                'history of polyethylene glycol allergy who have not yet received a COVID-19 '\
+                                                'vaccine dose. In this multicenter, retrospective review, COVID-19 vaccine and '\
+                                                'vaccine excipient skin testing was performed in patients referred to 1 of 3 '\
+                                                'large tertiary academic institutions. Patient medical records were reviewed '\
+                                                'after skin testing to determine subsequent COVID-19 vaccine tolerance. A total '\
+                                                'of 129 patients underwent skin testing, in whom 12 patients (9.3%) had positive '\
+                                                'results. There were 101 patients who received a COVID-19 vaccine after the skin '\
+                                                'testing, which was tolerated in 90 patients (89.1%) with no allergic symptoms, '\
+                                                'including 5 of 6 patients with positive skin testing results who received a '\
+                                                'COVID-19 vaccine after the skin testing. The remaining 11 patients experienced '\
+                                                'minor allergic symptoms after COVID-19 vaccination, none of whom required '\
+                                                'treatment beyond antihistamines. The low positivity rate of COVID-19 vaccine '\
+                                                'excipient skin testing and high rate of subsequent COVID-19 vaccine tolerance '\
+                                                'suggest a low utility of this method in evaluation of COVID-19 vaccine '\
+                                                'hypersensitivity reactions. Focus should shift to the use of existing vaccine '\
+                                                'allergy practice parameters, with consideration of graded dosing when '\
+                                                'necessary. On the basis of these results, strict avoidance of subsequent '\
+                                                'COVID-19 vaccination should be discouraged.',\
+                                    'ArticleTitle': 'Utility and futility of skin testing to address concerns surrounding '\
+                                                    'messenger RNA coronavirus disease 2019 vaccine reactions.',\
+                                    'JournalTitle': [   'Annals of allergy, asthma & immunology : official publication of the '\
+                                                        'American College of Allergy, Asthma, & Immunology'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 10.14039\}],\
+                    'maxScore': 10.229125,\
+                    'numFound': 69,\
+                    'numFoundExact': True,\
+                    'start': 0\},\
+    'responseHeader': \{   'QTime': 12,\
+                          'params': \{   'debug': 'query',\
+                                        'defType': 'edismax',\
+                                        'df': 'Abstract',\
+                                        'fl': 'ArticleTitle Abstract JournalTitle PubDate.Year score',\
+                                        'fq': ['', ''],\
+                                        'indent': 'true',\
+                                        'q': '(coronavirus OR covid) AND vaccine AND reaction',\
+                                        'q.op': 'OR',\
+                                        'qf': 'Abstract',\
+                                        'rows': '3',\
+                                        'sort': 'score desc',\
+                                        'start': '0',\
+                                        'wt': 'json'\},\
+                          'status': 0\}\}\
++++ Time taken (connection + query processing): 0.05015 seconds \
+ or 50.14968 ms [SOLR] +++\
+http://localhost:8983/solr/pubmed_index/select?q=(coronavirus%20OR%20covid)%20AND%20vaccine%20AND%20smoking&fq=&fq=&q.op=OR&rows=3&start=0&sort=score%20desc&fl=ArticleTitle%20Abstract%20JournalTitle%20PubDate.Year%20score&defType=edismax&qf=Abstract&df=Abstract&wt=json&indent=true&debug=query\
+\{   'debug': \{   'QParser': 'ExtendedDismaxQParser',\
+                 'altquerystring': None,\
+                 'boost_queries': None,\
+                 'boostfuncs': None,\
+                 'parsed_boost_queries': [],\
+                 'parsedquery': '+(+(DisjunctionMaxQuery((Abstract:coronavirus)) DisjunctionMaxQuery((Abstract:covid))) '\
+                                '+DisjunctionMaxQuery((Abstract:vaccine)) +DisjunctionMaxQuery((Abstract:smoking)))',\
+                 'parsedquery_toString': '+(+((Abstract:coronavirus) (Abstract:covid)) +(Abstract:vaccine) +(Abstract:smoking))',\
+                 'querystring': '(coronavirus OR covid) AND vaccine AND smoking',\
+                 'rawquerystring': '(coronavirus OR covid) AND vaccine AND smoking'\},\
+    'response': \{   'docs': [   \{   'Abstract': 'COVID-19 vaccination in many countries, including England, has been prioritised '\
+                                                'primarily by age. However, people of the same age can have very different '\
+                                                'health statuses. Frailty is a commonly used metric of health and has been found '\
+                                                'to be more strongly associated with mortality than age among COVID-19 '\
+                                                'inpatients. We compared the number of first vaccine doses administered across '\
+                                                'the 135 NHS Clinical Commissioning Groups (CCGs) of England to both the over 50 '\
+                                                'population and the estimated frail population in each area. Area-based frailty '\
+                                                'estimates were generated using the English Longitudinal Survey of Ageing '\
+                                                '(ELSA), a national survey of older people. We also compared the number of doses '\
+                                                'to the number of people with other risk factors associated with COVID-19: '\
+                                                'atrial fibrillation, chronic kidney disease, diabetes, learning disabilities, '\
+                                                'obesity and smoking status. We estimate that after 79 days of the vaccine '\
+                                                'program, across all Clinical Commissioning Group areas, the number of people '\
+                                                'who received a first vaccine per frail person ranged from 4.4 (95% CI 4.0-4.8) '\
+                                                'and 20.1 (95% CI 18.3-21.9). The prevalences of other risk factors were also '\
+                                                'poorly associated with the prevalence of vaccination across England. '\
+                                                'Vaccination with age-based priority created area-based inequities in the number '\
+                                                'of doses administered relative to the number of people who are frail or have '\
+                                                'other risk factors associated with COVID-19. As frailty has previously been '\
+                                                'found to be more strongly associated with mortality than age for COVID-19 '\
+                                                'inpatients, an age-based priority system may increase the risk of mortality in '\
+                                                'some areas during the vaccine roll-out period. Authorities planning COVID-19 '\
+                                                'vaccination programmes should consider the disadvantages of an age-based '\
+                                                'priority system.',\
+                                    'ArticleTitle': 'Can vaccination roll-out be more equitable if population risk is taken into '\
+                                                    'account?',\
+                                    'JournalTitle': ['PloS one'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 6.788148\},\
+                                \{   'Abstract': 'People infected with Severe Acute Respiratory Syndrome Coronavirus 2 '\
+                                                '(SARS-CoV-2) experience a wide range of clinical manifestations, from '\
+                                                'asymptomatic and mild illness to severe illness and death, influenced by age '\
+                                                'and a variety of comorbidities. Neutralizing antibodies (nAbs) are thought to '\
+                                                'be a primary immune defense against the virus. Large, diverse, '\
+                                                'well-characterized cohorts of convalescent individuals provide standardized '\
+                                                'values to benchmark nAb responses to past SARS-CoV-2 infection and define '\
+                                                'potentially protective levels of immunity. This analysis comprises an '\
+                                                'observational cohort of 329 HIV-seronegative adults in the United States (n = '\
+                                                '167) and Peru (n = 162) convalescing from SARS-CoV-2 infection from May through '\
+                                                'October 2020. The mean age was 48 years (range 18 to 86), 54% of the cohort '\
+                                                'overall was Hispanic, and 34% identified as White. nAb titers were measured in '\
+                                                'serum by SARS-CoV-2.D614G Spike-pseudotyped virus infection of 293T/ACE2 cells. '\
+                                                'Multiple linear regression was applied to define associations between nAb '\
+                                                'titers and demographic variables, disease severity and time from infection or '\
+                                                'disease onset, and comorbidities within and across US and Peruvian cohorts over '\
+                                                'time. nAb titers peaked 28 to 42 days post-diagnosis and were higher in '\
+                                                'participants with a history of severe Coronavirus Disease 2019 (COVID-19) '\
+                                                'illness (p < 0.001). Diabetes, age >55 years, male sex assigned at birth, and, '\
+                                                'in some cases, body mass index were also independently associated with higher '\
+                                                'nAb titers, whereas hypertension was independently associated with lower nAb '\
+                                                'titers. nAb titers did not differ by race, underlying pulmonary disease or '\
+                                                'smoking. Two months post-enrollment, nAb ID50 (ID80) titers declined 3.5 '\
+                                                '(2.8)-fold overall. Study limitations in this observational, convalescent '\
+                                                'cohort include survivorship bias and missing early viral loads and acute immune '\
+                                                'responses to correlate with the convalescent responses we observed. In summary, '\
+                                                'in our cohort, nAb titers after SARS-CoV-2 infection peaked approximately 1 '\
+                                                'month post-diagnosis and varied by age, sex assigned at birth, disease '\
+                                                'severity, and underlying comorbidities. Our data show great heterogeneity in '\
+                                                'nAb responses among people with recent COVID-19, highlighting the challenges of '\
+                                                'interpreting natural history studies and gauging responses to vaccines and '\
+                                                'therapeutics among people with recent infection. Our observations illuminate '\
+                                                'potential correlations of demographic and clinical characteristics with nAb '\
+                                                'responses, a key element for protection from COVID-19, thus informing '\
+                                                'development and implementation of preventative and therapeutic strategies '\
+                                                'globally. ClinicalTrials.gov NCT04403880.',\
+                                    'ArticleTitle': 'Neutralizing antibody responses over time in demographically and clinically '\
+                                                    'diverse individuals recovered from SARS-CoV-2 infection in the United '\
+                                                    'States and Peru: A cohort study.',\
+                                    'JournalTitle': ['PLoS medicine'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 5.92863\},\
+                                \{   'Abstract': 'The purpose of the study was to assess the community knowledge of and to obtain '\
+                                                'a broad overview of attitudes towards appropriate prevention techniques that '\
+                                                'are recommended by the Ministry of Health to prevent COVID-19 transmission in '\
+                                                'Saudi Arabia. A cross-sectional study using an online survey was conducted in '\
+                                                'Saudi Arabia between 1 May and 30 November 2020 to assess the community '\
+                                                'knowledge of and attitudes towards appropriate COVID-19 prevention techniques '\
+                                                'in Saudi Arabia. The study tool was developed based on an extensive literature '\
+                                                'review. A total of 577 individuals were involved in this study. The majority of '\
+                                                'the participants knew that COVID-19 is classified as a severe acute respiratory '\
+                                                'syndrome, is caused by viral infection, and that it is more common among the '\
+                                                'elderly and those who have a chronic illness. More than half of the '\
+                                                'participants were able to identify the symptoms of COVID-19 correctly, which '\
+                                                'are fever, dry cough, and loss of taste. Approximately half the study '\
+                                                'participants were knowledgeable about appropriate distancing, handwashing, and '\
+                                                'preventive measures (e.g., wearing a cloth mask, smoking cessation, avoiding '\
+                                                'dangerous cultural behaviors that increase the probability of disease '\
+                                                'transmission). More than half of the study participants were able to identify '\
+                                                'the appropriate actions that should be taken if common COVID-19 symptoms '\
+                                                'appear. A promising level of knowledge and positive attitudes towards COVID-19 '\
+                                                'was observed in Saudi Arabia. Continuous efforts should be maintained to '\
+                                                'sustain the level of awareness among the public. Further studies are warranted '\
+                                                'to explore the level of knowledge and attitudes after the introduction of '\
+                                                'COVID-19 vaccines.',\
+                                    'ArticleTitle': 'Community Knowledge of and Attitudes towards COVID-19 Prevention Techniques '\
+                                                    'in Saudi Arabia: A Cross-Sectional Study.',\
+                                    'JournalTitle': ['International journal of environmental research and public health'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 5.831895\}],\
+                    'maxScore': 6.788148,\
+                    'numFound': 3,\
+                    'numFoundExact': True,\
+                    'start': 0\},\
+    'responseHeader': \{   'QTime': 1,\
+                          'params': \{   'debug': 'query',\
+                                        'defType': 'edismax',\
+                                        'df': 'Abstract',\
+                                        'fl': 'ArticleTitle Abstract JournalTitle PubDate.Year score',\
+                                        'fq': ['', ''],\
+                                        'indent': 'true',\
+                                        'q': '(coronavirus OR covid) AND vaccine AND smoking',\
+                                        'q.op': 'OR',\
+                                        'qf': 'Abstract',\
+                                        'rows': '3',\
+                                        'sort': 'score desc',\
+                                        'start': '0',\
+                                        'wt': 'json'\},\
+                          'status': 0\}\}\
++++ Time taken (connection + query processing): 0.01951 seconds \
+ or 19.51289 ms [SOLR] +++\
+http://localhost:8983/solr/pubmed_index/select?q=gender%20AND%20identity%20AND%20education&fq=&fq=&q.op=OR&rows=3&start=0&sort=score%20desc&fl=ArticleTitle%20Abstract%20JournalTitle%20PubDate.Year%20score&defType=edismax&qf=Abstract&df=Abstract&wt=json&indent=true&debug=query\
+\{   'debug': \{   'QParser': 'ExtendedDismaxQParser',\
+                 'altquerystring': None,\
+                 'boost_queries': None,\
+                 'boostfuncs': None,\
+                 'parsed_boost_queries': [],\
+                 'parsedquery': '+(+DisjunctionMaxQuery((Abstract:gender)) +DisjunctionMaxQuery((Abstract:identity)) '\
+                                '+DisjunctionMaxQuery((Abstract:education)))',\
+                 'parsedquery_toString': '+(+(Abstract:gender) +(Abstract:identity) +(Abstract:education))',\
+                 'querystring': 'gender AND identity AND education',\
+                 'rawquerystring': 'gender AND identity AND education'\},\
+    'response': \{   'docs': [   \{   'Abstract': 'The Society for Maternal-Fetal Medicine seeks to ensure excellence in '\
+                                                'obstetrical outcomes for all people who desire or experience pregnancy, '\
+                                                'including people with diverse sexual and gender identities. The Society commits '\
+                                                'to the use of practices in clinical and research settings that affirm the '\
+                                                'sexual and gender identities of all people; encourages the development of '\
+                                                'undergraduate and graduate medical education curricula and training programs '\
+                                                'that address diverse pathways to pregnancy and support clinicians with diverse '\
+                                                'sexual and gender identities; and promotes the use of inclusive language that '\
+                                                'is accurate and, when possible, specific.',\
+                                    'ArticleTitle': 'Society for Maternal-Fetal Medicine Special Statement: Commitment to '\
+                                                    'Excellence in Obstetrical Care, Research, and Education for People with '\
+                                                    'Diverse Sexual and Gender Identities.',\
+                                    'JournalTitle': ['American journal of obstetrics and gynecology'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 9.6146145\},\
+                                \{   'Abstract': 'Transgender and gender diverse (TGD) Asian Americans in the U.S. have multiple '\
+                                                'stigmatized identities, yet their experiences of violence and discrimination '\
+                                                'are not well understood. We utilized the 2015 United States Trans Survey, the '\
+                                                'largest survey to date with U.S. TGD people, to study the experiences of TGD '\
+                                                'Asian Americans. Our study included 699 TGD Asian Americans who experienced '\
+                                                'violence and discrimination in the form of unequal treatment, verbal '\
+                                                'harassment, and physical attack. We assessed how experiences differed by '\
+                                                'sociodemographic characteristics, including birthplace, income, age, education, '\
+                                                'disability, gender identity, and region. We also explored how family support '\
+                                                'was associated with experiences of violence in the sample. Bivariate analyses '\
+                                                'and multivariable regressions were used to understand how sociodemographic '\
+                                                'variables and family support are linked to experiences of violence and '\
+                                                'discrimination. Results indicated that income, age, disability, gender '\
+                                                'identity, and family support are significantly associated with violence and '\
+                                                'discrimination. As TGD Asian Americans currently experience high levels of '\
+                                                'violence and discrimination due to transphobia and a rapidly rising anti-Asian '\
+                                                'bias stemming from the COVID-19 pandemic, efforts to better understand factors '\
+                                                'that may increase vulnerability and identify how family support can mitigate '\
+                                                'those experiences are imperative.',\
+                                    'ArticleTitle': 'Transgender and Gender Diverse (TGD) Asian Americans in the United States: '\
+                                                    'Experiences of Violence, Discrimination, and Family Support.',\
+                                    'JournalTitle': ['Journal of interpersonal violence'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 7.8912907\},\
+                                \{   'Abstract': "Social integration is a critical component of adolescents' positive school "\
+                                                "adjustment. Although prior scholars have highlighted how Black women and girls' "\
+                                                'social identities (e.g., race, gender, social class) influence their academic '\
+                                                'and social experiences in school, very little work has focused on how school '\
+                                                "racial diversity shapes Black girls' peer networks throughout K-12 education. "\
+                                                'To address this gap in the literature, the present qualitative study explored '\
+                                                'the narratives of 44 Black undergraduate women (M',\
+                                    'ArticleTitle': 'A qualitative exploration of school racial diversity, friendship choices, '\
+                                                    "and Black women's identity-based experiences in high school.",\
+                                    'JournalTitle': ['Journal of school psychology'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 7.4257836\}],\
+                    'maxScore': 9.6146145,\
+                    'numFound': 10,\
+                    'numFoundExact': True,\
+                    'start': 0\},\
+    'responseHeader': \{   'QTime': 1,\
+                          'params': \{   'debug': 'query',\
+                                        'defType': 'edismax',\
+                                        'df': 'Abstract',\
+                                        'fl': 'ArticleTitle Abstract JournalTitle PubDate.Year score',\
+                                        'fq': ['', ''],\
+                                        'indent': 'true',\
+                                        'q': 'gender AND identity AND education',\
+                                        'q.op': 'OR',\
+                                        'qf': 'Abstract',\
+                                        'rows': '3',\
+                                        'sort': 'score desc',\
+                                        'start': '0',\
+                                        'wt': 'json'\},\
+                          'status': 0\}\}\
++++ Time taken (connection + query processing): 0.01654 seconds \
+ or 16.53624 ms [SOLR] +++\
+http://localhost:8983/solr/pubmed_index/select?q=ADHD%20AND%20children&fq=&fq=&q.op=OR&rows=3&start=0&sort=score%20desc&fl=ArticleTitle%20Abstract%20JournalTitle%20PubDate.Year%20score&defType=edismax&qf=Abstract&df=Abstract&wt=json&indent=true&debug=query\
+\{   'debug': \{   'QParser': 'ExtendedDismaxQParser',\
+                 'altquerystring': None,\
+                 'boost_queries': None,\
+                 'boostfuncs': None,\
+                 'parsed_boost_queries': [],\
+                 'parsedquery': '+(+DisjunctionMaxQuery((Abstract:adhd)) +DisjunctionMaxQuery((Abstract:children)))',\
+                 'parsedquery_toString': '+(+(Abstract:adhd) +(Abstract:children))',\
+                 'querystring': 'ADHD AND children',\
+                 'rawquerystring': 'ADHD AND children'\},\
+    'response': \{   'docs': [   \{   'Abstract': 'This study standardizes the Parental Stress Scale (PSS) for Republic of Korean '\
+                                                'parents of children with attention-deficit/hyperactivity disorder (ADHD) and '\
+                                                'verifies its reliability and validity. Data from 160 parents of children with '\
+                                                'ADHD who completed the following self-reported questionnaires were analyzed: '\
+                                                'the Korean ADHD Rating Scales, the Patient Health Questionnaire-9, the '\
+                                                'State-Trait Anxiety Inventory, the PSS, and the Global Assessment of Recent '\
+                                                'Stress Scale. All scale items were measured for reliability and validity, and '\
+                                                'the appropriate factors for measuring stress in Korean parents with ADHD '\
+                                                'children were extracted. Exploratory and confirmatory factor analyses derived '\
+                                                'two sub-factors and 11 items. Goodness of fit was confirmed, and the scale was '\
+                                                'deemed suitable for explaining stress in parents of children with ADHD. In this '\
+                                                'study, the validity and reliability of the K-PSS-ADHD were investigated. We '\
+                                                'expect that the K-PSS-ADHD will be used as a basis for future studies on stress '\
+                                                'in parents of children with ADHD.',\
+                                    'ArticleTitle': 'Reliability and Validity of the Korean Version of the Parental Stress Scale '\
+                                                    'for Children With Attention-Deficit/Hyperactivity Disorder.',\
+                                    'JournalTitle': ['Psychiatry investigation'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 8.807512\},\
+                                \{   'Abstract': 'While children with ADHD are reported to have language problems, it is less '\
+                                                'clear if their ability to use language to tell a story (i.e., form a narrative) '\
+                                                'is impaired. Therefore, a systematic review and meta-analysis of studies '\
+                                                'examining the oral production of fictional stories in children with ADHD was '\
+                                                'conducted. Databases were systematically searched in January 2019 and December '\
+                                                '2020 (follow-up). Studies comparing children (18years) with ADHD to a control '\
+                                                'group of typically developing children were included. The meta-analysis adhered '\
+                                                'to PRISMA guidelines and was preregistered with PROSPERO [CRD42019122040]. '\
+                                                'Sixteen studies were retained. Results indicated that compared to typically '\
+                                                'developing children, children with ADHD produced less coherent narratives '\
+                                                "(Hedges' g=0.58 p<.001), gave more ambiguous references (Hedges' g=0.52, "\
+                                                "p<.001), made more disruptive errors (Hedges' g=0.41, p<.001), and produced "\
+                                                "language that was less syntactically complex (Hedges' g=0.39, p<.05). Children "\
+                                                "with ADHD also produced less language overall (Hedges' g=0.27, p<.05), although "\
+                                                'this result appeared to be an artefact of publication bias. Two studies '\
+                                                'investigated internal state language and both found children with ADHD to '\
+                                                'produce narratives with less internal state language. Children with ADHD did '\
+                                                "not produce less fluent narratives (Hedges' g=0.23, p=.47), although a scarcity "\
+                                                'of studies [K=4] preclude firm conclusions. In conclusion, children with ADHD '\
+                                                'were impaired in several areas of oral narrative production and screening for '\
+                                                'narrative language problems should be considered when assessing language and '\
+                                                'communicative abilities in children with ADHD.',\
+                                    'ArticleTitle': 'A Systematic Review and Meta-analysis of Narrative Language Abilities in '\
+                                                    'Children with Attention-Deficit/Hyperactivity Disorder.',\
+                                    'JournalTitle': ['Research on child and adolescent psychopathology'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 8.678504\},\
+                                \{   'Abstract': 'Attention Deficit Hyperactivity Disorder (ADHD) and Autism Spectrum Disorders '\
+                                                '(ASD) are two of the most represented neurodevelopmental conditions in '\
+                                                'childhood. The diagnostic shift introduced by the DSM-5, allowing a combined '\
+                                                'diagnosis of ADHD and ASD, poses different clinical challenges related to '\
+                                                'diagnostic overshadowing, accuracy of clinical judgment and potential delay in '\
+                                                'an ASD diagnosis in children presenting with ADHD. Here we tried to disentangle '\
+                                                'the clinical phenotype and specificity of the two co-occurring conditions in '\
+                                                'relation to autism traits and empathy, by comparing children with ASD with and '\
+                                                'without comorbid ADHD with children presenting ADHD only and children with '\
+                                                'typical development. The child versions of the Autism Quotient (C-AQ) and '\
+                                                'Empathy Quotient (C-EQ) were administered to a total sample of 198 male '\
+                                                'children between 6 and 14 years old with age appropriate language skills and '\
+                                                'normal intelligence. Univariate analysis demonstrated no significant '\
+                                                'differences in the C-AQ total and subscale scores as well as the C-EQ between '\
+                                                'children with ASD and children with ASD + ADHD, while children with ADHD alone '\
+                                                'presented an intermediate phenotype between ASD and TD. Furthermore, a receiver '\
+                                                'operating characteristic (ROC) analysis was applied to discriminate among the '\
+                                                'different phenotypes. We found that the C-AQ and C-EQ were accurate at '\
+                                                'distinguishing with satisfactory reliability between: (a) ASD vs. non- ASD '\
+                                                '(N-ASD) groups comprising both ADHD and TD children (Area Under the Curve AUC '\
+                                                '88% for C-AQ and 81% for C-EQ); (b) ASD and TD (AUC 92% for C-AQ and 95% for '\
+                                                'C-EQ); (c) ASD and ADHD (AUC 80% for C-AQ and 68% for C-EQ). Our data confirm '\
+                                                'the reliability of the C-AQ and C-EQ as behavioral markers to differentiate ASD '\
+                                                '(regardless of comorbid ADHD) from an ADHD condition and TD. Interestingly, in '\
+                                                'our sample an ADHD condition does not increase the severity of the clinical '\
+                                                'phenotype in terms of autism traits distribution and empathy, suggesting that '\
+                                                'the psychological measures detected by the two quantitative instruments are '\
+                                                'independent of ADHD traits. This evidence will contribute to the translational '\
+                                                'efforts in developing better tailored treatments and preventive strategies.',\
+                                    'ArticleTitle': 'Autistic Traits and Empathy in Children With Attention Deficit '\
+                                                    'Hyperactivity Disorder, Autism Spectrum Disorder and Co-occurring Attention '\
+                                                    'Deficit Hyperactivity Disorder/Autism Spectrum Disorder.',\
+                                    'JournalTitle': ['Frontiers in neuroscience'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 8.649656\}],\
+                    'maxScore': 8.807512,\
+                    'numFound': 73,\
+                    'numFoundExact': True,\
+                    'start': 0\},\
+    'responseHeader': \{   'QTime': 1,\
+                          'params': \{   'debug': 'query',\
+                                        'defType': 'edismax',\
+                                        'df': 'Abstract',\
+                                        'fl': 'ArticleTitle Abstract JournalTitle PubDate.Year score',\
+                                        'fq': ['', ''],\
+                                        'indent': 'true',\
+                                        'q': 'ADHD AND children',\
+                                        'q.op': 'OR',\
+                                        'qf': 'Abstract',\
+                                        'rows': '3',\
+                                        'sort': 'score desc',\
+                                        'start': '0',\
+                                        'wt': 'json'\},\
+                          'status': 0\}\}\
++++ Time taken (connection + query processing): 0.01822 seconds \
+ or 18.22281 ms [SOLR] +++\
+http://localhost:8983/solr/pubmed_index/select?q=%22anxiety%20in%20women%22&fq=&fq=&q.op=OR&rows=3&start=0&sort=score%20desc&fl=ArticleTitle%20Abstract%20JournalTitle%20PubDate.Year%20score&defType=edismax&qf=Abstract&df=Abstract&wt=json&indent=true&debug=query\
+\{   'debug': \{   'QParser': 'ExtendedDismaxQParser',\
+                 'altquerystring': None,\
+                 'boost_queries': None,\
+                 'boostfuncs': None,\
+                 'parsed_boost_queries': [],\
+                 'parsedquery': '+DisjunctionMaxQuery((Abstract:"anxiety ? women"))',\
+                 'parsedquery_toString': '+(Abstract:"anxiety ? women")',\
+                 'querystring': '"anxiety in women"',\
+                 'rawquerystring': '"anxiety in women"'\},\
+    'response': \{   'docs': [   \{   'Abstract': 'Uncovering mechanisms that can help explain the experience and impact of '\
+                                                'anxiety in women is important for improving etiological models and treatments '\
+                                                'to meet the needs of unique individuals. An enlarged error-related negativity '\
+                                                '(ERN) - an electrophysiological marker of cognitive control-related error '\
+                                                'monitoring- represents one indicator of neural processes more strongly related '\
+                                                'to anxiety in women than men. In this study, we further examined this '\
+                                                'association in women by testing the moderating effect of hormonal contraceptive '\
+                                                '(HC) use on the relationship between worry - i.e., a transdiagnostic cognitive '\
+                                                'dimension of anxiety - and the ERN. Results revealed that HCs moderated the '\
+                                                'worry-ERN association. Specifically, we found a significant and large '\
+                                                'relationship between worry and enlarged ERN in women using HCs, which was '\
+                                                'smaller and nonsignificant in naturally cycling women (i.e., those not using '\
+                                                'HCs). These findings suggest that the interplay among HC use, error-related '\
+                                                'cognitive control, and worry represents a novel mechanism for better '\
+                                                'characterizing the expression and impact of worry in women.',\
+                                    'ArticleTitle': 'Hormonal contraceptive use moderates the association between worry and '\
+                                                    'error-related brain activity.',\
+                                    'JournalTitle': [   'International journal of psychophysiology : official journal of the '\
+                                                        'International Organization of Psychophysiology'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 4.7967377\},\
+                                \{   'Abstract': 'Breast cancer is the most common cancer among women in Taiwan. However, the '\
+                                                'discomfort of receiving mammograms reduces the willingness to screen. This '\
+                                                'study using a quasi-experimental design and recruited 150 participants in a '\
+                                                'medical center, Taiwan. In the control group, only provided traditional health '\
+                                                'education sheets, the experimental group has joined the intervention of '\
+                                                'multimedia health education. State-Trait Anxiety Inventory and Visual Analogue '\
+                                                'Scale, respectively, were used to compare the differences in anxiety and pain '\
+                                                'between the two groups before and after receiving mammography. After the '\
+                                                "intervention, the experimental group's state anxiety score was significantly "\
+                                                'lower than that of the control group (30.638.43 vs. 33.7710.74, p<.05). '\
+                                                'However, there was no significant difference in pain scores (4.132.37 vs. '\
+                                                '4.572.31; p=.25). Younger, prior experience with mammography, and high trait '\
+                                                'anxiety affect pain and state anxiety of women undergoing mammography. The '\
+                                                'multimedia health education intervention could reduce anxiety effectively, but '\
+                                                'it does not significantly relieve the pain undergoing mammography.',\
+                                    'ArticleTitle': 'The effect of multimedia health education on pain and anxiety in women '\
+                                                    'undergoing mammography in Taiwan.',\
+                                    'JournalTitle': ['Taiwanese journal of obstetrics & gynecology'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 3.4872427\},\
+                                \{   'Abstract': 'Second-trimester anomaly scan was introduced as a regulated practice in Romania '\
+                                                'in 2019, causing misperceptions and unrealistic expectations about this '\
+                                                'examination among pregnant women. This study aimed to assess whether second '\
+                                                'trimester anomaly scan is a reason "per se" for maternal anxiety. A prospective '\
+                                                'type 1 cohort study was conducted in a tertiary prenatal diagnosis center with '\
+                                                'three locations in Bucharest, Romania, among pregnant women who underwent a '\
+                                                'second trimester anomaly scan between 1 December 2019 and 29 February 2020. '\
+                                                'Anxiety at the time of prenatal anomaly scan. Out of the 138 participants, '\
+                                                '32.6% believed that the anomaly scan could detect all fetus defects, 13.8% '\
+                                                'considered that the baby is bothered by the probe "light", 8.7% believed that '\
+                                                'the scan could harm the fetus, 96.4% reported that it was a pleasant '\
+                                                'experience, and 95% felt that it strengthened their bond with the fetus. The '\
+                                                'State-Trait Anxiety Inventory (STAI) score revealed that women with high state '\
+                                                'anxiety were more anxious at pre-scan ( Ultrasound scan in the second trimester '\
+                                                'is correlated with a significant anxiety for women who are prone to this '\
+                                                'psychological trait. It is also a good opportunity to screen for highly anxious '\
+                                                'women who could benefit from prenatal psychological counseling to facilitate '\
+                                                'timely recognition and prevention of postpartum psychiatric disorders such as '\
+                                                'depression.',\
+                                    'ArticleTitle': 'Psycho-Emotional Impact of Anomaly Ultrasound Scan in Romanian Pregnant '\
+                                                    'Women.',\
+                                    'JournalTitle': ['Healthcare (Basel, Switzerland)'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 3.121738\}],\
+                    'maxScore': 4.7967377,\
+                    'numFound': 11,\
+                    'numFoundExact': True,\
+                    'start': 0\},\
+    'responseHeader': \{   'QTime': 1,\
+                          'params': \{   'debug': 'query',\
+                                        'defType': 'edismax',\
+                                        'df': 'Abstract',\
+                                        'fl': 'ArticleTitle Abstract JournalTitle PubDate.Year score',\
+                                        'fq': ['', ''],\
+                                        'indent': 'true',\
+                                        'q': '"anxiety in women"',\
+                                        'q.op': 'OR',\
+                                        'qf': 'Abstract',\
+                                        'rows': '3',\
+                                        'sort': 'score desc',\
+                                        'start': '0',\
+                                        'wt': 'json'\},\
+                          'status': 0\}\}\
++++ Time taken (connection + query processing): 0.01721 seconds \
+ or 17.21001 ms [SOLR] +++\
+http://localhost:8983/solr/pubmed_index/select?q=%22mental%20health%22%20AND%20covid%20AND%20students&fq=&fq=&q.op=OR&rows=3&start=0&sort=score%20desc&fl=ArticleTitle%20Abstract%20JournalTitle%20PubDate.Year%20score&defType=edismax&qf=Abstract&df=Abstract&wt=json&indent=true&debug=query\
+\{   'debug': \{   'QParser': 'ExtendedDismaxQParser',\
+                 'altquerystring': None,\
+                 'boost_queries': None,\
+                 'boostfuncs': None,\
+                 'parsed_boost_queries': [],\
+                 'parsedquery': '+(+DisjunctionMaxQuery((Abstract:"mental health")) +DisjunctionMaxQuery((Abstract:covid)) '\
+                                '+DisjunctionMaxQuery((Abstract:student)))',\
+                 'parsedquery_toString': '+(+(Abstract:"mental health") +(Abstract:covid) +(Abstract:student))',\
+                 'querystring': '"mental health" AND covid AND students',\
+                 'rawquerystring': '"mental health" AND covid AND students'\},\
+    'response': \{   'docs': [   \{   'Abstract': 'The purpose of this study was to investigate mental health problems among '\
+                                                'international students in South Korean universities during the COVID-19 '\
+                                                'pandemic, as well as to identify the factors that affect their mental health. A '\
+                                                'total of 488 international students living in South Korea participated in a '\
+                                                'web-based survey. The questionnaire was created using the Google Forms '\
+                                                'platform, and a link to the questionnaire was shared through social media. '\
+                                                'Multiple logistic regression analysis was conducted to analyze the data. The '\
+                                                'prevalence rates of sleep problems, anxiety, and depression among international '\
+                                                'students were 47.1%, 39.6%, and 49%, respectively. The prevalence of mental '\
+                                                'health problems was higher among participants who were male, living with '\
+                                                'someone, residents of a rural area, and earning a higher income. The following '\
+                                                'variables were found to contribute to the prevalence of mental health problems: '\
+                                                'undergraduate student status, good understanding of the Korean language, longer '\
+                                                'hours of media usage, and experiences related to COVID-19 infection. A '\
+                                                'collaborative effort between the government and universities to manage the '\
+                                                'mental health of international students could promote the mental health of '\
+                                                'these students.',\
+                                    'ArticleTitle': 'Factors Associated with Mental Health among International Students during '\
+                                                    'the COVID-19 Pandemic in South Korea.',\
+                                    'JournalTitle': ['International journal of environmental research and public health'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 10.264136\},\
+                                \{   'Abstract': 'The COVID-19 pandemic is spreading globally with a high risk of mortality. It '\
+                                                'is also significantly affecting mental health. For nursing students, the impact '\
+                                                'of COVID-19 on mental health is predicted to be significant; however, '\
+                                                'sufficient data have not been obtained. Therefore, this study will aim to '\
+                                                'assess the mental health of nursing students and evaluate the related factors. '\
+                                                'This proposed study is a cross-sectional survey using a self-report '\
+                                                'questionnaire. An online questionnaire will be distributed among all nursing '\
+                                                'students of eight universities in Japan. The survey questionnaire will consist '\
+                                                'of questions related to demography, life satisfaction, fear of COVID-19, mental '\
+                                                'health and physical activities. The target sample size is 1300 nursing '\
+                                                'students. We will calculate descriptive statistics for each measurement item '\
+                                                'and perform univariate and logistic regression analyses to evaluate the '\
+                                                'potential risk factors for anxiety, depression and insomnia symptoms in nursing '\
+                                                'students. The strength of association will be assessed using the OR and its 95% '\
+                                                'CIs. Statistical significance will be set at a p<0.05. The protocol was '\
+                                                'approved by the Institutional Review Board (IRB) of the University of Hyogo on '\
+                                                '22 March 2021 (ID: 2020F29). In addition, all of the participating facilities '\
+                                                'required ethical approval from their local IRBs. The findings will be '\
+                                                'disseminated through peer-reviewed publications and conference presentations. '\
+                                                'We believe that the proposed large-scale investigation of the mental health of '\
+                                                'nursing students during the COVID-19 pandemic and the relationship between '\
+                                                'mental health and fear of COVID-19 are novel and will be a strength of this '\
+                                                'study.',\
+                                    'ArticleTitle': 'Impact of the COVID-19 pandemic on mental health of nursing students in '\
+                                                    'Japan: protocol for a cross-sectional study.',\
+                                    'JournalTitle': ['BMJ open'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 10.247219\},\
+                                \{   'Abstract': 'Due to the COVID-19 pandemic, a state of emergency was declared in Japan and '\
+                                                'university classes were suspended, causing concern about the deterioration of '\
+                                                'the mental health of isolated students. This study aimed to understand '\
+                                                "students' mental health status during the COVID-19 pandemic and suggest "\
+                                                'measures to prevent depressive anxiety among them. Undergraduate and graduate '\
+                                                'students at one national and two private universities in the Kansai region were '\
+                                                'surveyed. The Kessler Psychological Distress Scale-6 was used to assess the '\
+                                                "students' mental health. Questions were included to assess students' awareness "\
+                                                'of COVID-19 and changes in lifestyle habits, including drinking, smoking, '\
+                                                "gaming, and other addictive habits. The University of Tokyo Health Sociology's "\
+                                                'version of the Sense of Coherence Scale was used to assess the ability to cope '\
+                                                'with stressors. More than 50% of undergraduate and graduate students felt more '\
+                                                'than mild depressive anxiety and approximately 11% felt severe depressive '\
+                                                'anxiety, indicating that anxiety about the future worsened the levels of '\
+                                                'depressive anxiety. Life with reversed day and night schedules was associated '\
+                                                'with the worsening of depressive anxiety levels, but a high sense of coherence '\
+                                                'was associated with decreased levels of depressive anxiety. COVID-19 pandemic '\
+                                                'triggered isolation which led to worsening the mental health of undergraduate '\
+                                                'and graduate students. Psychological support for lifestyle and a sense of '\
+                                                'coherence is necessary to prevent mental health deterioration among isolated '\
+                                                'students. As we were unable to contact all students, the sample bias may affect '\
+                                                'interpretation of the data.',\
+                                    'ArticleTitle': 'A Cross-sectional Study of the Psychological Impact of the COVID-19 '\
+                                                    'Pandemic on Undergraduate and Graduate Students in Japan.',\
+                                    'JournalTitle': ['Journal of affective disorders reports'],\
+                                    'PubDate.Year': 2021,\
+                                    'score': 10.17609\}],\
+                    'maxScore': 10.264136,\
+                    'numFound': 64,\
+                    'numFoundExact': True,\
+                    'start': 0\},\
+    'responseHeader': \{   'QTime': 1,\
+                          'params': \{   'debug': 'query',\
+                                        'defType': 'edismax',\
+                                        'df': 'Abstract',\
+                                        'fl': 'ArticleTitle Abstract JournalTitle PubDate.Year score',\
+                                        'fq': ['', ''],\
+                                        'indent': 'true',\
+                                        'q': '"mental health" AND covid AND students',\
+                                        'q.op': 'OR',\
+                                        'qf': 'Abstract',\
+                                        'rows': '3',\
+                                        'sort': 'score desc',\
+                                        'start': '0',\
+                                        'wt': 'json'\},\
+                          'status': 0\}\}\
++++ Time taken (connection + query processing): 0.01727 seconds \
+ or 17.26794 ms [SOLR] +++}

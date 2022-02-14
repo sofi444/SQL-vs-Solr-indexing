@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema name="pubmed_schema" version="1.6">
+
+    <!-- PMID will be the primary key for documents
+        ensures uniqueness; each PubMed article is assigned a unique PMID 
+        THIS IS A REQUIRED FIELD -->
+    <uniqueKey>PMID</uniqueKey>
+
+
+    <!-- SOLR PREDIFINED FIELD TYPES
+        (many more are available but have been removed because they are not 
+        used for indexing PubMed data)-->
+
+    <!-- string(-s) are not analyised -->
+    <fieldType name="string" class="solr.StrField" sortMissingLast="true" docValues="true" />
+    <fieldType name="strings" class="solr.StrField" sortMissingLast="true" multiValued="true" docValues="true" />
+
+    <!-- boolean type: "true" or "false" -->
+    <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true"/>
+    <fieldType name="booleans" class="solr.BoolField" sortMissingLast="true" multiValued="true"/>
+
+    <!-- Numeric field types -->
+    <fieldType name="pint" class="solr.IntPointField" docValues="true"/>
+    <fieldType name="pfloat" class="solr.FloatPointField" docValues="true"/>
+    <fieldType name="plong" class="solr.LongPointField" docValues="true"/>
+    <fieldType name="pdouble" class="solr.DoublePointField" docValues="true"/>
+
+    <fieldType name="pints" class="solr.IntPointField" docValues="true" multiValued="true"/>
+    <fieldType name="pfloats" class="solr.FloatPointField" docValues="true" multiValued="true"/>
+    <fieldType name="plongs" class="solr.LongPointField" docValues="true" multiValued="true"/>
+    <fieldType name="pdoubles" class="solr.DoublePointField" docValues="true" multiValued="true"/>
+    <fieldType name="random" class="solr.RandomSortField" indexed="true"/>
+
+    <!-- since fields of this type not stored or indexed,
+       any data added to them will be ignored outright.  -->
+    <fieldType name="ignored" stored="false" indexed="false" multiValued="true" class="solr.StrField" />
+
+
+
+    <!-- the following 2 field types are the main ones used for text data in 
+        PubMed articles they have been adjusted specifically for this use case -->
+
+    <!-- TEXT_GENERAL -->
+    <!-- A general text field with generic cross-language defaults:
+        it tokenizes with StandardTokenizer,
+	      removes stop words from case-insensitive "stopwords.txt"
+	      (empty by default), and down cases.
+	  -->
+    <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100" multiValued="true">
+      <analyzer type="index">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
+        <!-- in this example, we will only use synonyms at query time
+        <filter class="solr.SynonymGraphFilterFactory" synonyms="index_synonyms.txt" ignoreCase="true" expand="false"/>
+        <filter class="solr.FlattenGraphFilterFactory"/>
+        -->
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+    </fieldType>
+    
+
+
+    <!-- TEXT_EN -->
+    <!-- A text field with defaults appropriate for English: it tokenizes with StandardTokenizer,
+      removes English stop words (lang/stopwords_en.txt), down cases, applies stemming. -->
+
+    <fieldType name="text_en" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.StopFilterFactory"
+                ignoreCase="true"
+                words="lang/stopwords_en.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.EnglishPossessiveFilterFactory"/>
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+      </analyzer>
+
+      <analyzer type="query">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.SynonymGraphFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
+        <filter class="solr.StopFilterFactory"
+                ignoreCase="true"
+                words="lang/stopwords_en.txt"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.EnglishPossessiveFilterFactory"/>
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+      </analyzer>
+    </fieldType>
+
+
+
+    <field name="Abstract" type="text_en" default="N/A" multiValued="false" indexed="true" required="false"/>
+    <field name="ArticleTitle" type="text_en" default="N/A" multiValued="false" indexed="true" required="false"/>
+    <field name="Authors" type="strings" multiValued="true" indexed="true" stored="false"/>
+    <field name="DateRevised" type="pints"/>
+    <field name="DateRevised.Month" type="pint" multiValued="false" indexed="true" stored="false"/>
+    <field name="DateRevised.Year" type="pint" multiValued="false" indexed="true" stored="false"/>
+    <field name="Journal_Title" type="text_general" multiValued="false" indexed="true" stored="false"/>
+    <field name="MeshTerms" type="text_general" multiValued="true" indexed="true" stored="false"/>
+    <field name="PMID" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+    <field name="PubDate" type="pints"/>
+    <field name="PubDate.Month" type="pint" multiValued="false" indexed="true" stored="false"/>
+    <field name="PubDate.Year" type="pint" multiValued="false" indexed="true" stored="false"/>
+    <field name="SimpleMeshTerms" type="text_general" multiValued="true" indexed="true" stored="false"/>
+
+
+</schema>
