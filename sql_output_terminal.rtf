@@ -1,0 +1,585 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20680\viewh14280\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 sofy@Sofias-MBP-3 text_tech % python3 query_pgsql.py\
+===========================================================             \
+#1 NoIdx Gender: SELECT title,abstract,pub_date FROM articles             WHERE position('gender' in abstract) > 0 AND             position('identity' in abstract) > 0 AND             position('education' in abstract) > 0             ORDER BY pub_date DESC             LIMIT 3;\
+\
++++ Query #1 processing time:             0.30713 seconds \
+ or             307.12509 ms [SQL] +++\
++++ Retrieved results for query #1: 3 +++\
+[   (   'The mental health of transgender and gender non-conforming people in China: a systematic review.',\
+        'Transgender and gender non-conforming (TGNC) individuals are at a high risk of adverse mental health outcomes due to '\
+        'minority stress-the stress faced by individuals categorised as stigmatised social minority groups. This systematic '\
+        'review sought to summarise the key mental health findings of the research on TGNC individuals in mainland China. We '\
+        'also aimed to consolidate research on the topic, identify specific mental health disparities, and offer new '\
+        'perspectives for future research to inform both policy and clinical practice. An extensive search of the literature, '\
+        'published in English and Chinese, was done between Jan 1, 1990, and Aug 1, 2021, using PubMed, PsycINFO, Scopus, '\
+        'Wanfang (in Chinese), and CNKI (in Chinese). Overall, two qualitative and 28 quantitative articles were identified. The '\
+        'quantitative findings showed a high prevalence of mental health problems, such as depression, anxiety, substance use '\
+        'disorders, and stress-related issues, and greater disparities in psychological wellbeing. High prevalence is also '\
+        'reported in suicidality and self-harm behaviours in this group. Across the two qualitative studies, attributable '\
+        'factors included gender-related discrimination, barriers to accessing health services, low social support, decreased '\
+        'knowledge and awareness of HIV prevention, and demographic characteristics-such as marital status, educational level, '\
+        'and gender identity. This Review also found little evidence of gender-affirming care and mental health interventions in '\
+        'mainland China. Following from these results, the next step is to integrate multi-level, social-psychological '\
+        'interventions with education to reduce cultural stereotypes and transphobia in mainland China. Political and social '\
+        'implications are also discussed to inform a standard set of guidelines for transgender-inclusive health-care services, '\
+        'including advocating for funding to create these special care programmes and services.',\
+        '2021-12'),\
+    (   'Transgender and Gender Diverse (TGD) Asian Americans in the United States: Experiences of Violence, Discrimination, and '\
+        'Family Support.',\
+        'Transgender and gender diverse (TGD) Asian Americans in the U.S. have multiple stigmatized identities, yet their '\
+        'experiences of violence and discrimination are not well understood. We utilized the 2015 United States Trans Survey, '\
+        'the largest survey to date with U.S. TGD people, to study the experiences of TGD Asian Americans. Our study included '\
+        '699 TGD Asian Americans who experienced violence and discrimination in the form of unequal treatment, verbal '\
+        'harassment, and physical attack. We assessed how experiences differed by sociodemographic characteristics, including '\
+        'birthplace, income, age, education, disability, gender identity, and region. We also explored how family support was '\
+        'associated with experiences of violence in the sample. Bivariate analyses and multivariable regressions were used to '\
+        'understand how sociodemographic variables and family support are linked to experiences of violence and discrimination. '\
+        'Results indicated that income, age, disability, gender identity, and family support are significantly associated with '\
+        'violence and discrimination. As TGD Asian Americans currently experience high levels of violence and discrimination due '\
+        'to transphobia and a rapidly rising anti-Asian bias stemming from the COVID-19 pandemic, efforts to better understand '\
+        'factors that may increase vulnerability and identify how family support can mitigate those experiences are imperative.',\
+        '2021-12'),\
+    (   'A Meta-Analytical Review of Gender-Based School Bullying in Spain.',\
+        'School bullying continues to be one of the main challenges for the education community. Current research indicates that '\
+        'Lesbian, Gay, Bisexual, Transgender, Transsexual, and other LGBT+ people suffer the highest rates of bullying, while '\
+        "other studies suggest that this bullying does not occur based on the victim's actual sexual orientation or gender "\
+        'identity, but because they do not fit into the traditional gender roles. The aim of the present study was to carry out '\
+        'a meta-analytical study on the prevalence of gender-based bullying against LGBT+ schoolchildren and adolescents in '\
+        'Spain. The review was carried out following the recommendations of the PRISMA group and allowing us to identify a total '\
+        'of 24 studies. All of these studies were published since 2008, and most of them conducted cross-sectional survey-type '\
+        'research. It was also found that the instrument used to assess bullying varied greatly among studies, resulting in an '\
+        'enormous heterogeneity of research on this topic. Different meta-analyses were carried out according to the profile of '\
+        'involvement in bullying: victimisation, perpetration, and observation. In addition, three target populations were '\
+        'detected in the victimisation research: the general population, pre-identified bullying victims reporting the reasons '\
+        'behind the victimisation, and LGBT+ people. The meta-analyses conducted with R have estimated the prevalence of '\
+        'observation of gender-based school bullying in Spain at 77.3%, perpetration at 13.3%, and victimisation at 8.6% among '\
+        'the general population. When the research focuses on previously identified victims, the rate was 3.6%, while if LGBT+ '\
+        'people are approached directly, the percentage increases to 51%. These rates reveal the need to develop specific '\
+        'preventive strategies in schools. Greater awareness of affective-sexual diversity and respect for those who do not '\
+        'conform to traditional gender roles should be promoted.',\
+        '2021-12')]\
+===========================================================             \
+#2 NoIdx ADHD: SELECT title,abstract,pub_date FROM articles             WHERE position('ADHD' in abstract) > 0 AND             position('children' in abstract) > 0             ORDER BY pub_date DESC             LIMIT 3;\
+\
++++ Query #2 processing time:             0.29216 seconds \
+ or             292.16385 ms [SQL] +++\
++++ Retrieved results for query #2: 3 +++\
+[   (   'Manual dexterity and strength and in young adults with and without Attention-Deficit/Hyperactivity Disorder (ADHD).',\
+        'Manual motor deficits are common in children with attention deficit/hyperactivity disorder (ADHD); however, it is '\
+        'unclear whether these impairments persist into adulthood. The aim of this study was to examine manual dexterity and '\
+        'strength in young adults with ADHD aged 18-25 years. Sixty-one individuals with confirmed ADHD and 56 adults without '\
+        'ADHD completed Purdue Pegboard tasks for manual dexterity and maximal hand- and pinch-grip tests for strength. In the '\
+        'Purdue Pegboard task, participants placed pins using the right, left, and both-hands, respectively. In addition, '\
+        'participants built assemblies using pins, washers, and collars with alternating hand movements. The results '\
+        'demonstrated that women without ADHD out-performed the other three groups in the right-hand, bimanual, and assembly PPB '\
+        'tasks. Both maximal hand strength tests demonstrated that men were stronger than women, but no differences were '\
+        'observed between adults with and without ADHD. The current findings suggest that adults with ADHD may have deficits in '\
+        'manual dexterity and tasks requiring bimanual coordination.',\
+        '2022-1'),\
+    (   'Increased prevalence of attention-deficit hyperactivity disorder symptomatology in patients with familial Mediterranean '\
+        'fever.',\
+        'Previous studies suggest that exposure to inflammation in infancy may increase the risk for attention-deficit and '\
+        'hyperactivity disorder (ADHD). We studied the ADHD manifestations among 124 familial Mediterranean fever (FMF) patients '\
+        'and examined the relationship between FMF patient characteristics and ADHD. Clinical, demographic, and genetic data '\
+        "were abstracted from patients' medical records and supplemented by information obtained during clinic visits. ADHD "\
+        'manifestations were assessed using the Diagnostic and Statistical Manual of Mental Disorders (5th ed.) questionnaire. '\
+        'ADHD was diagnosed in 42 (32.8%) FMF patients, a rate significantly higher than in unselected populations (8%). A '\
+        'majority (n=27, 64.3%) had combined inattentive, hyperactive-impulsive manifestations. Eight (19%) had predominantly '\
+        'hyperactive-impulsive, and seven (16.6%) had predominantly inattentive symptoms. FMF patients with severe '\
+        'manifestations reported more ADHD symptoms. FMF patients with ADHD symptoms were less adherent to their treatment '\
+        'regimen, with only 61.9% of the patients with ADHD symptoms adhering to colchicine therapy compared to 92.7% of the '\
+        'patients without ADHD symptoms. The high prevalence of ADHD characteristics in children with FMF may support the '\
+        'neuroimmune hypothesis that chronic inflammation increases the risk for ADHD. Children with FMF should be screened for '\
+        'ADHD as its presence may adversely affect adherence to treatment.',\
+        '2021-9'),\
+    (   'Val158Met polymorphisms of COMT gene and serum concentrations of catecholaminergic neurotransmitters of ADHD in Chinese '\
+        'children and adolescents.',\
+        'This study analyzed the Val158Met polymorphisms of the catechol-O-methyltransferase (COMT) gene and serum '\
+        'concentrations of catecholaminergic neurotransmitters in attention deficit hyperactivity disorder (ADHD) children and '\
+        'adolescents.All the subjects (180 paired ADHD and non-ADHD children and adolescents) were genotyped for the Val158Met '\
+        'polymorphisms of the COMT gene, and determined by the difference of dopamine and noradrenalin from a 1:1 paired '\
+        'case-control study.The frequencies of methionine (A)/A, valine (G)/A, and G/G were 51.67%, 41.11%, and 7.22% in the '\
+        'case group, and 62.22%, 31.11%, and 6.67% in the control group. There was a significant difference in the distribution '\
+        'of all genotypes of the COMT gene between the 2 groups (odds ratio=1.85, 95% confidence interval: 1.62-2.08; 2=7.80, '\
+        'P<.05). The serum concentrations of dopamine and noradrenalin were 1.420.34ng/mL and 177.7037.92pg/mL in the case '\
+        'group, and 1.940.42ng/mL and 206.2042.45pg/mL in the control group. There were the significant differences in the '\
+        'levels of dopamine and noradrenalin between the 2 groups (dopamine: t=4.30, P<.01; noradrenalin: t=2.24, P<.05).Our '\
+        'study suggested that the Val158Met polymorphisms of the COMT gene and serum concentrations of catecholaminergic '\
+        'neurotransmitters were associated with ADHD children and adolescents.',\
+        '2021-12')]\
+===========================================================             \
+#3 NoIdx VaxReaction: SELECT title,abstract,pub_date FROM articles             WHERE (position('covid' in abstract) > 0 OR                 position('coronavirus' in abstract) > 0) AND             position('vaccine' in abstract) > 0 AND             position('reaction' in abstract) > 0             LIMIT 3;\
+\
++++ Query #3 processing time:             0.01697 seconds \
+ or             16.97302 ms [SQL] +++\
++++ Retrieved results for query #3: 3 +++\
+[   (   'Targeted Detection of SARS-CoV-2 Nucleocapsid Sequence Variants by Mass Spectrometric Analysis of Tryptic Peptides.',\
+        'COVID-19 vaccines are becoming more widely available, but accurate and rapid testing remains a crucial tool for slowing '\
+        'the spread of the severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) virus. Although the quantitative reverse '\
+        'transcription-polymerase chain reaction (qRT-PCR) remains the most prevalent testing methodology, numerous tests have '\
+        'been developed that are predicated on detection of the SARS-CoV-2 nucleocapsid protein, including liquid '\
+        'chromatography-tandem mass spectrometry (LC-MS/MS) and immunoassay-based approaches. The continuing emergence of '\
+        'SARS-CoV-2 variants has complicated these approaches, as both qRT-PCR and antigen detection methods can be prone to '\
+        'missing viral variants. In this study, we describe several COVID-19 cases where we were unable to detect the expected '\
+        'peptide targets from clinical nasopharyngeal swabs. Whole genome sequencing revealed that single nucleotide '\
+        'polymorphisms in the gene encoding the viral nucleocapsid protein led to sequence variants that were not monitored in '\
+        'the targeted assay. Minor modifications to the LC-MS/MS method ensured detection of the variants of the target peptide. '\
+        'Additional nucleocapsid variants could be detected by performing the bottom-up proteomic analysis of whole viral '\
+        'genome-sequenced samples. This study demonstrates the importance of considering variants of SARS-CoV-2 in the assay '\
+        'design and highlights the flexibility of mass spectrometry-based approaches to detect variants as they evolve.',\
+        '2021-11'),\
+    (   'Autoimmune hepatitis after SARS-CoV-2 vaccine: New-onset or flare-up?',\
+        'Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection has been reported to trigger several autoimmune '\
+        'diseases. There are also recent reports of autoimmune diseases that develop after SARS-CoV-2 vaccines. Autoimmune '\
+        'hepatitis is a polygenic multifactorial disease, which is diagnosed using a scoring system. A 61-year-old woman '\
+        'presented with malaise, fatigue, loss of appetite, nausea and yellow eyes. She had a Pfizer/BioNTech BNT162b2 mRNA '\
+        'vaccine a month ago. Her physical examination revealed jaundice all over the body, especially in the sclera. The '\
+        'laboratory tests showed elevated liver enzymes and bilirubin levels. Antinuclear antibody and anti-smooth muscle '\
+        'antibody were positive and immunoglobulin G was markedly elevated. The liver biopsy revealed histopathological findings '\
+        'consistent with autoimmune hepatitis (AIH). The patient was diagnosed with AIH and initiated on steroid therapy. She '\
+        'rapidly responded to steroid therapy. A few cases of AIH have been reported after the COVID-19 vaccine so far. Although '\
+        'the exact cause of autoimmune reactions is unknown, an abnormal immune response and bystander activation induced by '\
+        'molecular mimicry is considered a potential mechanism, especially in susceptible individuals. As intensive vaccination '\
+        'against SARS-CoV-2 continues, we would like to emphasize that clinicians should be cautious and consider AIH in '\
+        'patients presenting with similar signs and symptoms.',\
+        '2021-11'),\
+    (   'Safety and immunogenicity of inactivated COVID-19 vaccine in health care workers.',\
+        'Effective vaccines are essential for controlling the coronavirus disease 2019 (COVID-19) pandemic. CoronaVac, which is '\
+        'an inactivated virus vaccine, was the first imported COVID-19 vaccine in Thailand. To investigate the safety and '\
+        'immunogenicity of CoronaVac within the Thai population, we conducted a prospective cohort study among health care '\
+        'workers aged 18-59 years, who received a 2-dose regimen of CoronaVac 21 days apart between March and April 2021 at the '\
+        'hospital in Samut Sakhon, Thailand. We recruited 185 participants with a mean age of 32 years. Total antibodies against '\
+        'receptor-binding domain (RBD) and immunoglobulin G (IgG) against nucleocapsid (N) protein of SARS-CoV-2 were tested. '\
+        'Total antibodies against RBD were negative before immunization. One volunteer was positive for N, although negative for '\
+        'the RBD antibodies. The seroconversion rate of total antibodies against RBD after the first CoronaVac dose was 67% with '\
+        'a Geometric mean concentration (GMC) of 1.98 U/ml. Following CoronaVac dose 2, the seroconversion rate increased to '\
+        '100% with a GMC of 92.9 U/ml. The seroconversion rates of IgG against N protein were 1% after dose 1 and 62.8% after '\
+        'dose 2. The overall incidence of adverse reactions was 59.5%. Injection-site pain was the most common local adverse '\
+        'event (52.4%), while myalgia was the most common systemic adverse event (31.9%). No serious adverse events were '\
+        'observed. A 0-21 days, 2-dose CoronaVac regimen appears safe, inducing a satisfactory response compared with '\
+        'convalescent serum obtained 4-6 weeks postnatural infection. Antibody responses after 2-dose CoronaVac were comparable '\
+        'to the convalescent plasma but waned rapidly after 3 months. Therefore, we recommend 2-dose CoronaVac administration '\
+        'with possible booster doses.',\
+        '2021-11')]\
+===========================================================             \
+#4 Idx VaxReaction OTF: SELECT title,abstract,pub_date,ts_rank_cd(vector, query) AS rank              FROM articles,                 to_tsquery( '(coronavirus|covid) & vaccine & reaction' ) AS query             WHERE to_tsvector(title || ' ' || abstract) @@ query             ORDER BY rank DESC             LIMIT 3;\
+\
++++ Query #4 processing time:             10.88728 seconds \
+ or             10887.27593 ms [SQL] +++\
++++ Retrieved results for query #4: 3 +++\
+[   (   'Utility and futility of skin testing to address concerns surrounding messenger RNA coronavirus disease 2019 vaccine '\
+        'reactions.',\
+        'The mechanism of coronavirus disease 2019 (COVID-19) vaccine hypersensitivity reactions is unknown. COVID-19 vaccine '\
+        'excipient skin testing has been used in evaluation of these reactions, but its utility in predicting subsequent '\
+        'COVID-19 vaccine tolerance is also unknown. To evaluate the utility of COVID-19 vaccine and vaccine excipient skin '\
+        'testing in both patients with an allergic reaction to their first messenger RNA COVID-19 vaccine dose and patients with '\
+        'a history of polyethylene glycol allergy who have not yet received a COVID-19 vaccine dose. In this multicenter, '\
+        'retrospective review, COVID-19 vaccine and vaccine excipient skin testing was performed in patients referred to 1 of 3 '\
+        'large tertiary academic institutions. Patient medical records were reviewed after skin testing to determine subsequent '\
+        'COVID-19 vaccine tolerance. A total of 129 patients underwent skin testing, in whom 12 patients (9.3%) had positive '\
+        'results. There were 101 patients who received a COVID-19 vaccine after the skin testing, which was tolerated in 90 '\
+        'patients (89.1%) with no allergic symptoms, including 5 of 6 patients with positive skin testing results who received a '\
+        'COVID-19 vaccine after the skin testing. The remaining 11 patients experienced minor allergic symptoms after COVID-19 '\
+        'vaccination, none of whom required treatment beyond antihistamines. The low positivity rate of COVID-19 vaccine '\
+        'excipient skin testing and high rate of subsequent COVID-19 vaccine tolerance suggest a low utility of this method in '\
+        'evaluation of COVID-19 vaccine hypersensitivity reactions. Focus should shift to the use of existing vaccine allergy '\
+        'practice parameters, with consideration of graded dosing when necessary. On the basis of these results, strict '\
+        'avoidance of subsequent COVID-19 vaccination should be discouraged.',\
+        '2021-11',\
+        0.2487354),\
+    (   'Effect of gentle exercises on injection site reaction after Covid-19 vaccination. A case report.',\
+        'A series of atypical acute respiratory diseases were caused in Wuhan, China, in December 2019 by a novel coronavirus '\
+        '(COVID-19). Over six million confirmed COVID-19 cases had been reported worldwide, and total deaths in the USA from '\
+        'March 1 to May 30, 2020, were approximately 7,81,000. Worldwide, scientists are developing many potential COVID-19 '\
+        'vaccines. Few of the companies got success in the development of a vaccine for COVID-19, but most of the recipients '\
+        'reported injection site reactions like pain, redness, or erythema after vaccination. The present study aimed to '\
+        'evaluate the effect of gentle upper limb exercises to reduce injection site reactions, and here we present a case with '\
+        'post vaccination site reaction that reported pre-assessment score 7 for visual analog scale for pain and score 2 for '\
+        'redness and erythema with Investigator-reported and rated injection site reactions. Then he performed gentle upper limb '\
+        'exercises after 8 and 24 hours of vaccination. The study reported a beneficial effect of these exercises to reduce pain '\
+        'and redness or erythema after Covid-19 vaccination. The potential benefit of gentle exercises may be due to their blood '\
+        'flow boost-up and anti-inflammatory effects. However, high-quality controlled trials are warranted further to evaluate '\
+        'the potential benefit of upper limb gentle exercises for the reduction of injection site reactions after the Covid-19 '\
+        'vaccination injection. The clinical experience with the subect shows that gentle exercises for upper limb may reduce '\
+        'the inection site reaction after COVID-19 vaccination.',\
+        '2021-10',\
+        0.12388134),\
+    (   'Cutaneous reactions to COVID-19 vaccine at the dermatology primary care.',\
+        'Coronavirus disease 2019 (COVID-19) vaccines can cause adverse reactions, mainly from vaccine-induced immune responses. '\
+        'Some of these may also involve the skin and worry unaware patients. A better understanding of such adverse reactions '\
+        'may reduce concerns and help promote the vaccination of large population groups. All the reports of patients admitted '\
+        'to our Dermatology Primary Care, from March 2021 to June 2021, were retrospectively examined to collect descriptive '\
+        'data on skin reactions arising after COVID-19 vaccination. Out of 200 vaccinated patients admitted to the Dermatology '\
+        'Primary Care, 21 (10.5%) referred cutaneous reactions with onset after vaccination. Only one patient required '\
+        'hospitalization for generalized bullous erythema multiforme, which occurred 48h after the second vaccine dose. The '\
+        "other patients' cutaneous reactions to vaccination were of mild/moderate degree. Three patients presented exacerbation "\
+        'of their cutaneous diseases. Cutaneous reactions observed in our sample were mostly mild or moderate. Awareness must be '\
+        'raised to recognize and treat eventual severe reactions. Future studies are needed to assess the incidence of cutaneous '\
+        'reactions following COVID-19 vaccination.',\
+        '2021-11',\
+        0.1232197)]\
+===========================================================             \
+#5 Idx VaxReaction: SELECT title,abstract,pub_date,ts_rank_cd(vector, query) AS rank             FROM articles,                 to_tsquery( '(coronavirus|covid) & vaccine & reaction' ) AS query             WHERE vector @@ query             ORDER BY rank DESC             LIMIT 3;\
+\
++++ Query #5 processing time:             0.00374 seconds \
+ or             3.74174 ms [SQL] +++\
++++ Retrieved results for query #5: 3 +++\
+[   (   'Utility and futility of skin testing to address concerns surrounding messenger RNA coronavirus disease 2019 vaccine '\
+        'reactions.',\
+        'The mechanism of coronavirus disease 2019 (COVID-19) vaccine hypersensitivity reactions is unknown. COVID-19 vaccine '\
+        'excipient skin testing has been used in evaluation of these reactions, but its utility in predicting subsequent '\
+        'COVID-19 vaccine tolerance is also unknown. To evaluate the utility of COVID-19 vaccine and vaccine excipient skin '\
+        'testing in both patients with an allergic reaction to their first messenger RNA COVID-19 vaccine dose and patients with '\
+        'a history of polyethylene glycol allergy who have not yet received a COVID-19 vaccine dose. In this multicenter, '\
+        'retrospective review, COVID-19 vaccine and vaccine excipient skin testing was performed in patients referred to 1 of 3 '\
+        'large tertiary academic institutions. Patient medical records were reviewed after skin testing to determine subsequent '\
+        'COVID-19 vaccine tolerance. A total of 129 patients underwent skin testing, in whom 12 patients (9.3%) had positive '\
+        'results. There were 101 patients who received a COVID-19 vaccine after the skin testing, which was tolerated in 90 '\
+        'patients (89.1%) with no allergic symptoms, including 5 of 6 patients with positive skin testing results who received a '\
+        'COVID-19 vaccine after the skin testing. The remaining 11 patients experienced minor allergic symptoms after COVID-19 '\
+        'vaccination, none of whom required treatment beyond antihistamines. The low positivity rate of COVID-19 vaccine '\
+        'excipient skin testing and high rate of subsequent COVID-19 vaccine tolerance suggest a low utility of this method in '\
+        'evaluation of COVID-19 vaccine hypersensitivity reactions. Focus should shift to the use of existing vaccine allergy '\
+        'practice parameters, with consideration of graded dosing when necessary. On the basis of these results, strict '\
+        'avoidance of subsequent COVID-19 vaccination should be discouraged.',\
+        '2021-11',\
+        0.2487354),\
+    (   'Effect of gentle exercises on injection site reaction after Covid-19 vaccination. A case report.',\
+        'A series of atypical acute respiratory diseases were caused in Wuhan, China, in December 2019 by a novel coronavirus '\
+        '(COVID-19). Over six million confirmed COVID-19 cases had been reported worldwide, and total deaths in the USA from '\
+        'March 1 to May 30, 2020, were approximately 7,81,000. Worldwide, scientists are developing many potential COVID-19 '\
+        'vaccines. Few of the companies got success in the development of a vaccine for COVID-19, but most of the recipients '\
+        'reported injection site reactions like pain, redness, or erythema after vaccination. The present study aimed to '\
+        'evaluate the effect of gentle upper limb exercises to reduce injection site reactions, and here we present a case with '\
+        'post vaccination site reaction that reported pre-assessment score 7 for visual analog scale for pain and score 2 for '\
+        'redness and erythema with Investigator-reported and rated injection site reactions. Then he performed gentle upper limb '\
+        'exercises after 8 and 24 hours of vaccination. The study reported a beneficial effect of these exercises to reduce pain '\
+        'and redness or erythema after Covid-19 vaccination. The potential benefit of gentle exercises may be due to their blood '\
+        'flow boost-up and anti-inflammatory effects. However, high-quality controlled trials are warranted further to evaluate '\
+        'the potential benefit of upper limb gentle exercises for the reduction of injection site reactions after the Covid-19 '\
+        'vaccination injection. The clinical experience with the subect shows that gentle exercises for upper limb may reduce '\
+        'the inection site reaction after COVID-19 vaccination.',\
+        '2021-10',\
+        0.12388134),\
+    (   'Cutaneous reactions to COVID-19 vaccine at the dermatology primary care.',\
+        'Coronavirus disease 2019 (COVID-19) vaccines can cause adverse reactions, mainly from vaccine-induced immune responses. '\
+        'Some of these may also involve the skin and worry unaware patients. A better understanding of such adverse reactions '\
+        'may reduce concerns and help promote the vaccination of large population groups. All the reports of patients admitted '\
+        'to our Dermatology Primary Care, from March 2021 to June 2021, were retrospectively examined to collect descriptive '\
+        'data on skin reactions arising after COVID-19 vaccination. Out of 200 vaccinated patients admitted to the Dermatology '\
+        'Primary Care, 21 (10.5%) referred cutaneous reactions with onset after vaccination. Only one patient required '\
+        'hospitalization for generalized bullous erythema multiforme, which occurred 48h after the second vaccine dose. The '\
+        "other patients' cutaneous reactions to vaccination were of mild/moderate degree. Three patients presented exacerbation "\
+        'of their cutaneous diseases. Cutaneous reactions observed in our sample were mostly mild or moderate. Awareness must be '\
+        'raised to recognize and treat eventual severe reactions. Future studies are needed to assess the incidence of cutaneous '\
+        'reactions following COVID-19 vaccination.',\
+        '2021-11',\
+        0.1232197)]\
+===========================================================             \
+#6 Idx VaxSmoking: SELECT title,abstract,pub_date,ts_rank_cd(vector, query) AS rank             FROM articles,                 to_tsquery( '(coronavirus|covid) & vaccine & smoking' ) AS query             WHERE vector @@ query             ORDER BY rank DESC             LIMIT 3;\
+\
++++ Query #6 processing time:             0.00107 seconds \
+ or             1.07026 ms [SQL] +++\
++++ Retrieved results for query #6: 3 +++\
+[   (   'Can vaccination roll-out be more equitable if population risk is taken into account?',\
+        'COVID-19 vaccination in many countries, including England, has been prioritised primarily by age. However, people of '\
+        'the same age can have very different health statuses. Frailty is a commonly used metric of health and has been found to '\
+        'be more strongly associated with mortality than age among COVID-19 inpatients. We compared the number of first vaccine '\
+        'doses administered across the 135 NHS Clinical Commissioning Groups (CCGs) of England to both the over 50 population '\
+        'and the estimated frail population in each area. Area-based frailty estimates were generated using the English '\
+        'Longitudinal Survey of Ageing (ELSA), a national survey of older people. We also compared the number of doses to the '\
+        'number of people with other risk factors associated with COVID-19: atrial fibrillation, chronic kidney disease, '\
+        'diabetes, learning disabilities, obesity and smoking status. We estimate that after 79 days of the vaccine program, '\
+        'across all Clinical Commissioning Group areas, the number of people who received a first vaccine per frail person '\
+        'ranged from 4.4 (95% CI 4.0-4.8) and 20.1 (95% CI 18.3-21.9). The prevalences of other risk factors were also poorly '\
+        'associated with the prevalence of vaccination across England. Vaccination with age-based priority created area-based '\
+        'inequities in the number of doses administered relative to the number of people who are frail or have other risk '\
+        'factors associated with COVID-19. As frailty has previously been found to be more strongly associated with mortality '\
+        'than age for COVID-19 inpatients, an age-based priority system may increase the risk of mortality in some areas during '\
+        'the vaccine roll-out period. Authorities planning COVID-19 vaccination programmes should consider the disadvantages of '\
+        'an age-based priority system.',\
+        '2021-0',\
+        0.007184202),\
+    (   'Community Knowledge of and Attitudes towards COVID-19 Prevention Techniques in Saudi Arabia: A Cross-Sectional Study.',\
+        'The purpose of the study was to assess the community knowledge of and to obtain a broad overview of attitudes towards '\
+        'appropriate prevention techniques that are recommended by the Ministry of Health to prevent COVID-19 transmission in '\
+        'Saudi Arabia. A cross-sectional study using an online survey was conducted in Saudi Arabia between 1 May and 30 '\
+        'November 2020 to assess the community knowledge of and attitudes towards appropriate COVID-19 prevention techniques in '\
+        'Saudi Arabia. The study tool was developed based on an extensive literature review. A total of 577 individuals were '\
+        'involved in this study. The majority of the participants knew that COVID-19 is classified as a severe acute respiratory '\
+        'syndrome, is caused by viral infection, and that it is more common among the elderly and those who have a chronic '\
+        'illness. More than half of the participants were able to identify the symptoms of COVID-19 correctly, which are fever, '\
+        'dry cough, and loss of taste. Approximately half the study participants were knowledgeable about appropriate '\
+        'distancing, handwashing, and preventive measures (e.g., wearing a cloth mask, smoking cessation, avoiding dangerous '\
+        'cultural behaviors that increase the probability of disease transmission). More than half of the study participants '\
+        'were able to identify the appropriate actions that should be taken if common COVID-19 symptoms appear. A promising '\
+        'level of knowledge and positive attitudes towards COVID-19 was observed in Saudi Arabia. Continuous efforts should be '\
+        'maintained to sustain the level of awareness among the public. Further studies are warranted to explore the level of '\
+        'knowledge and attitudes after the introduction of COVID-19 vaccines.',\
+        '2021-12',\
+        0.0012195122),\
+    (   'Neutralizing antibody responses over time in demographically and clinically diverse individuals recovered from '\
+        'SARS-CoV-2 infection in the United States and Peru: A cohort study.',\
+        'People infected with Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) experience a wide range of clinical '\
+        'manifestations, from asymptomatic and mild illness to severe illness and death, influenced by age and a variety of '\
+        'comorbidities. Neutralizing antibodies (nAbs) are thought to be a primary immune defense against the virus. Large, '\
+        'diverse, well-characterized cohorts of convalescent individuals provide standardized values to benchmark nAb responses '\
+        'to past SARS-CoV-2 infection and define potentially protective levels of immunity. This analysis comprises an '\
+        'observational cohort of 329 HIV-seronegative adults in the United States (n = 167) and Peru (n = 162) convalescing from '\
+        'SARS-CoV-2 infection from May through October 2020. The mean age was 48 years (range 18 to 86), 54% of the cohort '\
+        'overall was Hispanic, and 34% identified as White. nAb titers were measured in serum by SARS-CoV-2.D614G '\
+        'Spike-pseudotyped virus infection of 293T/ACE2 cells. Multiple linear regression was applied to define associations '\
+        'between nAb titers and demographic variables, disease severity and time from infection or disease onset, and '\
+        'comorbidities within and across US and Peruvian cohorts over time. nAb titers peaked 28 to 42 days post-diagnosis and '\
+        'were higher in participants with a history of severe Coronavirus Disease 2019 (COVID-19) illness (p < 0.001). Diabetes, '\
+        'age >55 years, male sex assigned at birth, and, in some cases, body mass index were also independently associated with '\
+        'higher nAb titers, whereas hypertension was independently associated with lower nAb titers. nAb titers did not differ '\
+        'by race, underlying pulmonary disease or smoking. Two months post-enrollment, nAb ID50 (ID80) titers declined 3.5 '\
+        '(2.8)-fold overall. Study limitations in this observational, convalescent cohort include survivorship bias and missing '\
+        'early viral loads and acute immune responses to correlate with the convalescent responses we observed. In summary, in '\
+        'our cohort, nAb titers after SARS-CoV-2 infection peaked approximately 1 month post-diagnosis and varied by age, sex '\
+        'assigned at birth, disease severity, and underlying comorbidities. Our data show great heterogeneity in nAb responses '\
+        'among people with recent COVID-19, highlighting the challenges of interpreting natural history studies and gauging '\
+        'responses to vaccines and therapeutics among people with recent infection. Our observations illuminate potential '\
+        'correlations of demographic and clinical characteristics with nAb responses, a key element for protection from '\
+        'COVID-19, thus informing development and implementation of preventative and therapeutic strategies globally. '\
+        'ClinicalTrials.gov NCT04403880.',\
+        '2021-12',\
+        0.001)]\
+===========================================================             \
+#7 Idx Gender: SELECT title,abstract,pub_date,ts_rank_cd(vector, query) AS rank             FROM articles,                 to_tsquery( 'gender & identity & education' ) AS query             WHERE vector @@ query             ORDER BY rank DESC             LIMIT 3;\
+\
++++ Query #7 processing time:             0.00084 seconds \
+ or             0.83828 ms [SQL] +++\
++++ Retrieved results for query #7: 3 +++\
+[   (   'Transgender and Gender Diverse (TGD) Asian Americans in the United States: Experiences of Violence, Discrimination, and '\
+        'Family Support.',\
+        'Transgender and gender diverse (TGD) Asian Americans in the U.S. have multiple stigmatized identities, yet their '\
+        'experiences of violence and discrimination are not well understood. We utilized the 2015 United States Trans Survey, '\
+        'the largest survey to date with U.S. TGD people, to study the experiences of TGD Asian Americans. Our study included '\
+        '699 TGD Asian Americans who experienced violence and discrimination in the form of unequal treatment, verbal '\
+        'harassment, and physical attack. We assessed how experiences differed by sociodemographic characteristics, including '\
+        'birthplace, income, age, education, disability, gender identity, and region. We also explored how family support was '\
+        'associated with experiences of violence in the sample. Bivariate analyses and multivariable regressions were used to '\
+        'understand how sociodemographic variables and family support are linked to experiences of violence and discrimination. '\
+        'Results indicated that income, age, disability, gender identity, and family support are significantly associated with '\
+        'violence and discrimination. As TGD Asian Americans currently experience high levels of violence and discrimination due '\
+        'to transphobia and a rapidly rising anti-Asian bias stemming from the COVID-19 pandemic, efforts to better understand '\
+        'factors that may increase vulnerability and identify how family support can mitigate those experiences are imperative.',\
+        '2021-12',\
+        0.052589376),\
+    (   'The mental health of transgender and gender non-conforming people in China: a systematic review.',\
+        'Transgender and gender non-conforming (TGNC) individuals are at a high risk of adverse mental health outcomes due to '\
+        'minority stress-the stress faced by individuals categorised as stigmatised social minority groups. This systematic '\
+        'review sought to summarise the key mental health findings of the research on TGNC individuals in mainland China. We '\
+        'also aimed to consolidate research on the topic, identify specific mental health disparities, and offer new '\
+        'perspectives for future research to inform both policy and clinical practice. An extensive search of the literature, '\
+        'published in English and Chinese, was done between Jan 1, 1990, and Aug 1, 2021, using PubMed, PsycINFO, Scopus, '\
+        'Wanfang (in Chinese), and CNKI (in Chinese). Overall, two qualitative and 28 quantitative articles were identified. The '\
+        'quantitative findings showed a high prevalence of mental health problems, such as depression, anxiety, substance use '\
+        'disorders, and stress-related issues, and greater disparities in psychological wellbeing. High prevalence is also '\
+        'reported in suicidality and self-harm behaviours in this group. Across the two qualitative studies, attributable '\
+        'factors included gender-related discrimination, barriers to accessing health services, low social support, decreased '\
+        'knowledge and awareness of HIV prevention, and demographic characteristics-such as marital status, educational level, '\
+        'and gender identity. This Review also found little evidence of gender-affirming care and mental health interventions in '\
+        'mainland China. Following from these results, the next step is to integrate multi-level, social-psychological '\
+        'interventions with education to reduce cultural stereotypes and transphobia in mainland China. Political and social '\
+        'implications are also discussed to inform a standard set of guidelines for transgender-inclusive health-care services, '\
+        'including advocating for funding to create these special care programmes and services.',\
+        '2021-12',\
+        0.036111113),\
+    (   'Society for Maternal-Fetal Medicine Special Statement: Commitment to Excellence in Obstetrical Care, Research, and '\
+        'Education for People with Diverse Sexual and Gender Identities.',\
+        'The Society for Maternal-Fetal Medicine seeks to ensure excellence in obstetrical outcomes for all people who desire or '\
+        'experience pregnancy, including people with diverse sexual and gender identities. The Society commits to the use of '\
+        'practices in clinical and research settings that affirm the sexual and gender identities of all people; encourages the '\
+        'development of undergraduate and graduate medical education curricula and training programs that address diverse '\
+        'pathways to pregnancy and support clinicians with diverse sexual and gender identities; and promotes the use of '\
+        'inclusive language that is accurate and, when possible, specific.',\
+        '2021-11',\
+        0.03162288)]\
+===========================================================             \
+#8 Idx ADHD: SELECT title,abstract,pub_date,ts_rank_cd(vector, query) AS rank             FROM articles,                 to_tsquery( 'ADHD & children' ) AS query             WHERE vector @@ query             ORDER BY rank DESC             LIMIT 3;\
+\
++++ Query #8 processing time:             0.00163 seconds \
+ or             1.63388 ms [SQL] +++\
++++ Retrieved results for query #8: 3 +++\
+[   (   'A Systematic Review and Meta-analysis of Narrative Language Abilities in Children with Attention-Deficit/Hyperactivity '\
+        'Disorder.',\
+        'While children with ADHD are reported to have language problems, it is less clear if their ability to use language to '\
+        'tell a story (i.e., form a narrative) is impaired. Therefore, a systematic review and meta-analysis of studies '\
+        'examining the oral production of fictional stories in children with ADHD was conducted. Databases were systematically '\
+        'searched in January 2019 and December 2020 (follow-up). Studies comparing children (18years) with ADHD to a control '\
+        'group of typically developing children were included. The meta-analysis adhered to PRISMA guidelines and was '\
+        'preregistered with PROSPERO [CRD42019122040]. Sixteen studies were retained. Results indicated that compared to '\
+        "typically developing children, children with ADHD produced less coherent narratives (Hedges' g=0.58 p<.001), gave more "\
+        "ambiguous references (Hedges' g=0.52, p<.001), made more disruptive errors (Hedges' g=0.41, p<.001), and produced "\
+        "language that was less syntactically complex (Hedges' g=0.39, p<.05). Children with ADHD also produced less language "\
+        "overall (Hedges' g=0.27, p<.05), although this result appeared to be an artefact of publication bias. Two studies "\
+        'investigated internal state language and both found children with ADHD to produce narratives with less internal state '\
+        "language. Children with ADHD did not produce less fluent narratives (Hedges' g=0.23, p=.47), although a scarcity of "\
+        'studies [K=4] preclude firm conclusions. In conclusion, children with ADHD were impaired in several areas of oral '\
+        'narrative production and screening for narrative language problems should be considered when assessing language and '\
+        'communicative abilities in children with ADHD.',\
+        '2021-11',\
+        0.47839987),\
+    (   'Autistic Traits and Empathy in Children With Attention Deficit Hyperactivity Disorder, Autism Spectrum Disorder and '\
+        'Co-occurring Attention Deficit Hyperactivity Disorder/Autism Spectrum Disorder.',\
+        'Attention Deficit Hyperactivity Disorder (ADHD) and Autism Spectrum Disorders (ASD) are two of the most represented '\
+        'neurodevelopmental conditions in childhood. The diagnostic shift introduced by the DSM-5, allowing a combined diagnosis '\
+        'of ADHD and ASD, poses different clinical challenges related to diagnostic overshadowing, accuracy of clinical judgment '\
+        'and potential delay in an ASD diagnosis in children presenting with ADHD. Here we tried to disentangle the clinical '\
+        'phenotype and specificity of the two co-occurring conditions in relation to autism traits and empathy, by comparing '\
+        'children with ASD with and without comorbid ADHD with children presenting ADHD only and children with typical '\
+        'development. The child versions of the Autism Quotient (C-AQ) and Empathy Quotient (C-EQ) were administered to a total '\
+        'sample of 198 male children between 6 and 14 years old with age appropriate language skills and normal intelligence. '\
+        'Univariate analysis demonstrated no significant differences in the C-AQ total and subscale scores as well as the C-EQ '\
+        'between children with ASD and children with ASD + ADHD, while children with ADHD alone presented an intermediate '\
+        'phenotype between ASD and TD. Furthermore, a receiver operating characteristic (ROC) analysis was applied to '\
+        'discriminate among the different phenotypes. We found that the C-AQ and C-EQ were accurate at distinguishing with '\
+        'satisfactory reliability between: (a) ASD vs. non- ASD (N-ASD) groups comprising both ADHD and TD children (Area Under '\
+        'the Curve AUC 88% for C-AQ and 81% for C-EQ); (b) ASD and TD (AUC 92% for C-AQ and 95% for C-EQ); (c) ASD and ADHD (AUC '\
+        '80% for C-AQ and 68% for C-EQ). Our data confirm the reliability of the C-AQ and C-EQ as behavioral markers to '\
+        'differentiate ASD (regardless of comorbid ADHD) from an ADHD condition and TD. Interestingly, in our sample an ADHD '\
+        'condition does not increase the severity of the clinical phenotype in terms of autism traits distribution and empathy, '\
+        'suggesting that the psychological measures detected by the two quantitative instruments are independent of ADHD traits. '\
+        'This evidence will contribute to the translational efforts in developing better tailored treatments and preventive '\
+        'strategies.',\
+        '2021-0',\
+        0.3627962),\
+    (   'Val158Met polymorphisms of COMT gene and serum concentrations of catecholaminergic neurotransmitters of ADHD in Chinese '\
+        'children and adolescents.',\
+        'This study analyzed the Val158Met polymorphisms of the catechol-O-methyltransferase (COMT) gene and serum '\
+        'concentrations of catecholaminergic neurotransmitters in attention deficit hyperactivity disorder (ADHD) children and '\
+        'adolescents.All the subjects (180 paired ADHD and non-ADHD children and adolescents) were genotyped for the Val158Met '\
+        'polymorphisms of the COMT gene, and determined by the difference of dopamine and noradrenalin from a 1:1 paired '\
+        'case-control study.The frequencies of methionine (A)/A, valine (G)/A, and G/G were 51.67%, 41.11%, and 7.22% in the '\
+        'case group, and 62.22%, 31.11%, and 6.67% in the control group. There was a significant difference in the distribution '\
+        'of all genotypes of the COMT gene between the 2 groups (odds ratio=1.85, 95% confidence interval: 1.62-2.08; 2=7.80, '\
+        'P<.05). The serum concentrations of dopamine and noradrenalin were 1.420.34ng/mL and 177.7037.92pg/mL in the case '\
+        'group, and 1.940.42ng/mL and 206.2042.45pg/mL in the control group. There were the significant differences in the '\
+        'levels of dopamine and noradrenalin between the 2 groups (dopamine: t=4.30, P<.01; noradrenalin: t=2.24, P<.05).Our '\
+        'study suggested that the Val158Met polymorphisms of the COMT gene and serum concentrations of catecholaminergic '\
+        'neurotransmitters were associated with ADHD children and adolescents.',\
+        '2021-12',\
+        0.351804)]\
+===========================================================             \
+#9 Idx AnxietyProximity: SELECT title,abstract,pub_date,ts_rank_cd(vector, query) AS rank             FROM articles,                 to_tsquery( 'anxiety <-> in <-> women' ) AS query             WHERE vector @@ query             ORDER BY rank DESC             LIMIT 3;\
+\
++++ Query #9 processing time:             0.00264 seconds \
+ or             2.635 ms [SQL] +++\
++++ Retrieved results for query #9: 3 +++\
+[   (   'Anxiety in women referred for colposcopy: a prospective observational study.',\
+        'To evaluate the occurrence of anxiety in women attending a colposcopic examination within the new cervical cancer '\
+        'screening in Germany. One hundred and fifty-six patients were asked to fill out Spielbergers STAI inventory form prior '\
+        'to their colposcopic examination. For the statistical analysis, a two by two between-group design was applied including '\
+        'the following group factors: the repeat factors included patients, who presented to our centre of dysplasia for the '\
+        'first time (new) and patients who have had an examination in our centre before (repeat). Further, the factor diagnosis '\
+        'included two groups: first, patients with cervical dysplasia and second, patients with vulva diseases. The analysis of '\
+        'the STAI results showed that patients presenting with cervical dysplasia for the first time had the highest levels of '\
+        'anxiety, directly followed by new patients in the vulva group. The ANOVA revealed a main effect of the repeat factor, '\
+        'F(1,140)=7.53, p=0.007. There was no significant effect of diagnosis. Regardless of the diagnosis, patients being '\
+        'transferred for a colposcopy within the cervical cancer screening program for the first time have very high anxiety '\
+        'levels. The prospect of a potentially painful examination seems to be a key factor. Only a scientific evaluation of the '\
+        'new cervical cancer screening will be able to show if the rising numbers of colposcopic examinations is really worth '\
+        'the risk of exposing so many more women to the emotional distress of a colposcopy.',\
+        '2021-11',\
+        0.1),\
+    (   'Hormonal contraceptive use moderates the association between worry and error-related brain activity.',\
+        'Uncovering mechanisms that can help explain the experience and impact of anxiety in women is important for improving '\
+        'etiological models and treatments to meet the needs of unique individuals. An enlarged error-related negativity (ERN) - '\
+        'an electrophysiological marker of cognitive control-related error monitoring- represents one indicator of neural '\
+        'processes more strongly related to anxiety in women than men. In this study, we further examined this association in '\
+        'women by testing the moderating effect of hormonal contraceptive (HC) use on the relationship between worry - i.e., a '\
+        'transdiagnostic cognitive dimension of anxiety - and the ERN. Results revealed that HCs moderated the worry-ERN '\
+        'association. Specifically, we found a significant and large relationship between worry and enlarged ERN in women using '\
+        'HCs, which was smaller and nonsignificant in naturally cycling women (i.e., those not using HCs). These findings '\
+        'suggest that the interplay among HC use, error-related cognitive control, and worry represents a novel mechanism for '\
+        'better characterizing the expression and impact of worry in women.',\
+        '2021-11',\
+        0.1),\
+    (   'The effect of multimedia health education on pain and anxiety in women undergoing mammography in Taiwan.',\
+        'Breast cancer is the most common cancer among women in Taiwan. However, the discomfort of receiving mammograms reduces '\
+        'the willingness to screen. This study using a quasi-experimental design and recruited 150 participants in a medical '\
+        'center, Taiwan. In the control group, only provided traditional health education sheets, the experimental group has '\
+        'joined the intervention of multimedia health education. State-Trait Anxiety Inventory and Visual Analogue Scale, '\
+        'respectively, were used to compare the differences in anxiety and pain between the two groups before and after '\
+        "receiving mammography. After the intervention, the experimental group's state anxiety score was significantly lower "\
+        'than that of the control group (30.638.43 vs. 33.7710.74, p<.05). However, there was no significant difference in pain '\
+        'scores (4.132.37 vs. 4.572.31; p=.25). Younger, prior experience with mammography, and high trait anxiety affect pain '\
+        'and state anxiety of women undergoing mammography. The multimedia health education intervention could reduce anxiety '\
+        'effectively, but it does not significantly relieve the pain undergoing mammography.',\
+        '2021-11',\
+        0.1)]\
+===========================================================             \
+#10 Idx MentalHealth: SELECT title,abstract,pub_date,ts_rank_cd(vector, query) AS rank             FROM articles,                 to_tsquery( '(mental <-> health) & covid & students' ) AS query             WHERE vector @@ query             ORDER BY rank DESC             LIMIT 3;\
+\
++++ Query #10 processing time:             0.00303 seconds \
+ or             3.02911 ms [SQL] +++\
++++ Retrieved results for query #10: 3 +++\
+[   (   'Impact of the COVID-19 pandemic on mental health of nursing students in Japan: protocol for a cross-sectional study.',\
+        'The COVID-19 pandemic is spreading globally with a high risk of mortality. It is also significantly affecting mental '\
+        'health. For nursing students, the impact of COVID-19 on mental health is predicted to be significant; however, '\
+        'sufficient data have not been obtained. Therefore, this study will aim to assess the mental health of nursing students '\
+        'and evaluate the related factors. This proposed study is a cross-sectional survey using a self-report questionnaire. An '\
+        'online questionnaire will be distributed among all nursing students of eight universities in Japan. The survey '\
+        'questionnaire will consist of questions related to demography, life satisfaction, fear of COVID-19, mental health and '\
+        'physical activities. The target sample size is 1300 nursing students. We will calculate descriptive statistics for each '\
+        'measurement item and perform univariate and logistic regression analyses to evaluate the potential risk factors for '\
+        'anxiety, depression and insomnia symptoms in nursing students. The strength of association will be assessed using the '\
+        'OR and its 95% CIs. Statistical significance will be set at a p<0.05. The protocol was approved by the Institutional '\
+        'Review Board (IRB) of the University of Hyogo on 22 March 2021 (ID: 2020F29). In addition, all of the participating '\
+        'facilities required ethical approval from their local IRBs. The findings will be disseminated through peer-reviewed '\
+        'publications and conference presentations. We believe that the proposed large-scale investigation of the mental health '\
+        'of nursing students during the COVID-19 pandemic and the relationship between mental health and fear of COVID-19 are '\
+        'novel and will be a strength of this study.',\
+        '2021-12',\
+        0.1168263),\
+    (   'US college student mental health and COVID-19: Comparing pre-pandemic and pandemic timepoints.',\
+        'To assess mental health in US undergraduates during COVID-19; to identify key pandemic-related stressors, perceived '\
+        'control, and coping and their associations with mental health. Data collected from a sample of undergraduates in April '\
+        '2020 ( Online measures of depression, anxiety, and stress symptoms and perceived control and coping (both samples); '\
+        'pandemic-related stressors and perceived benefits (April 2020). Depression and stress symptoms were higher in April '\
+        '2020 than in 2017. Most students reported perceiving at least some pandemic-related benefits. Top-rated stressors '\
+        'involved missing seeing friends and school-related stressors. Perceived control and approach coping were lower during '\
+        'the pandemic but related to better mental health; avoidant coping was higher during the pandemic and related to poorer '\
+        'mental health. Findings can inform campuses regarding how to improve student mental health during COVID and beyond.',\
+        '2021-11',\
+        0.1015625),\
+    (   'A longitudinal investigation of COVID-19 pandemic experiences and mental health among university students.',\
+        'Previous studies have established a link between the COVID-19 pandemic and poor mental health. They further suggest '\
+        'that young adults may be especially vulnerable to worsened mental health during the pandemic, but few studies have '\
+        'investigated which specific aspects of the COVID-19 experience affect psychological well-being over time. To better '\
+        'understand concrete predictors of poor mental health outcomes in this population, we identified several '\
+        'pandemic-related experiences and evaluated their effects on mental health symptoms (depression, anxiety, stress, '\
+        'alcohol, and substance use) in a sample of U.S. college students (N=176). Both mental health symptoms and '\
+        'pandemic-related experiences were evaluated at the start of quarantine (March/April 2020, Time 1) and the end of the '\
+        'Spring 2020 semester (May 2020, Time 2). Given the limited literature on specific predictors of mental health during a '\
+        'pandemic, we used elastic net regression, a novel analytic method that helps with variable selection when theoretical '\
+        'background is limited, to narrow our field of possible predictors. While mental health symptoms were elevated at both '\
+        'timepoints, there were no clinically significant changes from Time 1 to Time 2 and few differences between '\
+        'sociodemographic groups. Both disruption due to the pandemic (=.25, p=.021) and limited confidence in the federal '\
+        "government's response (=-.14, p=.038) were significant predictors of depression symptoms at the end of the semester, "\
+        'even when controlling for baseline depression. Further, predictions that the pandemic would continue to impact daily '\
+        'life further into the future were linked with pandemic stress response symptoms (=.15, p=.032) at Time 2, beyond the '\
+        'effects of baseline symptoms. Alcohol (=-.22, p=.024) and substance use (=-.26, p=.01) were associated with reduced '\
+        'adherence to COVID-19 guidelines. Our findings indicate that specific aspects of the pandemic experience may be '\
+        'influencing internalizing symptoms and alcohol/substance use in college students, pointing to potential avenues for '\
+        'targeted support and intervention. A range of factors may influence university student mental health during the '\
+        'COVID-19 pandemic. Students who expect the pandemic will continue to impact daily life further into the future maybe '\
+        'more likely to report stress symptoms. Disruption due to the pandemic and limited confidence in the federal '\
+        "government's response may be associated with depression symptoms. Alcohol and substance use are associated with lower "\
+        'COVID-19 guideline adherence in university students.',\
+        '2021-11',\
+        0.0903728)]\
+\
+\
++++ Processing time for all 6 (index) queries (#5-#10):         11.516486167907715 seconds \
+ or         11516.486167907715 ms [SQL] +++}
